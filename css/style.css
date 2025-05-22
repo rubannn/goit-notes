@@ -68,7 +68,7 @@ table.comment-table {
     width: 75%;
     margin: 20px auto;
     border-collapse: collapse;
-    
+
     background-color: #f8f8f8;
     /* Светло-серый фон таблицы */
     border: 1px solid #d0d0d0;
@@ -84,7 +84,7 @@ table.comment-table td {
     /* Границы ячеек */
     padding: 6px 8px;
     text-align: center;
-    background-color: #f5f5dc;  /* / #ffe6ea */
+    background-color: #ffe6ea;
     border-radius: 3px;
     /* для скругления углов, если нужно */
 }
