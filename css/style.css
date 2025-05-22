@@ -69,11 +69,9 @@ table.comment-table {
     margin: 20px auto;
     border-collapse: collapse;
 
-    background-color: #f8f8f8;
-    /* Светло-серый фон таблицы */
     border: 1px solid #d0d0d0;
     /* Рамка вокруг таблицы */
-    border-radius: 4px;
+    border-radius: 5px;
     overflow: hidden;
     /* Для скругления углов */
 }
@@ -85,6 +83,6 @@ table.comment-table td {
     padding: 6px 8px;
     text-align: center;
     background-color: #ffe6ea;
-    border-radius: 3px;
+    border-radius: 5px;
     /* для скругления углов, если нужно */
 }
