@@ -47,13 +47,14 @@ function generateTableFromJSON(data) {
             const commentDiv = document.createElement('div');
             commentDiv.className = 'comment';
 
-            // Check if comment matches the special format "[x], [y,z...]"
-            const specialFormatRegex = /^\[(\d+)\],\s*\[([\d,]+)\]$/;
+            // Check if comment matches the special format "[x], [y,z...]" with any whitespace
+            const specialFormatRegex = /^\[\s*(\d+)\s*\],\s*\[\s*([\d\s,]+)\s*\]$/;
             const match = rowData.comment.match(specialFormatRegex);
 
             if (match) {
                 const totalColumns = parseInt(match[1]);
-                const checkedColumns = match[2].split(',').map(Number);
+                // Remove all whitespace and split by commas
+                const checkedColumns = match[2].replace(/\s/g, '').split(',').map(Number);
 
                 // Create a table for the special format
                 const specialTable = document.createElement('table');
