@@ -38,6 +38,8 @@ function generateTableFromJSON(data) {
         const link = document.createElement('a');
         link.href = rowData.link;
         link.textContent = rowData.topic;
+        link.target = '_blank'; // Open in new tab
+        link.rel = 'noopener noreferrer'; // Security best practice
         topicContainer.appendChild(link);
 
         // Add comment if exists
