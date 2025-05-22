@@ -83,7 +83,7 @@ table.comment-table td {
     /* Границы ячеек */
     padding: 6px 8px;
     text-align: center;
-    background-color: #c6dfc6;  /* или #f5f5dc / #ffe6ea */
+    background-color: #f5f5dc;  /* / #ffe6ea */
     border-radius: 3px;
     /* для скругления углов, если нужно */
 }
