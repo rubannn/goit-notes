@@ -4,11 +4,6 @@ table {
     margin: 20px auto;
 }
 
-table.comment-table,
-table.comment-table th {
-    background-color: #c6dfc6
-}
-
 tr:hover {
     background-color: #d1cece;
     transition: background-color 0.2s ease;
@@ -56,6 +51,11 @@ input[type="checkbox"] {
     text-align: center;
 }
 
+h2 {
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
 .comment {
     background-color: #ffc0cb;
     padding: 4px;
@@ -64,7 +64,26 @@ input[type="checkbox"] {
     font-size: 0.9em;
 }
 
-h2 {
-    margin-top: 20px;
-    margin-left: 10%;
+table.comment-table {
+    border-collapse: collapse;
+    /* Убирает двойные границы */
+    margin: 6px 0;
+    background-color: #f8f8f8;
+    /* Светло-серый фон таблицы */
+    border: 1px solid #d0d0d0;
+    /* Рамка вокруг таблицы */
+    border-radius: 4px;
+    overflow: hidden;
+    /* Для скругления углов */
+}
+
+table.comment-table th,
+table.comment-table td {
+    border: 1px solid #c0c0c0;
+    /* Границы ячеек */
+    padding: 6px 8px;
+    text-align: center;
+    background-color: #c6dfc6;  /* или #f5f5dc / #ffe6ea */
+    border-radius: 3px;
+    /* для скругления углов, если нужно */
 }
