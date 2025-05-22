@@ -1,4 +1,3 @@
-
 {
     "title": "Basic Algorithms and Data Structures",
     "headers": [
@@ -17,7 +16,7 @@
             "score": false,
             "deadline": "26.05.2025",
             "verified": true,
-            "comment": ""
+            "comment": "test"
         },
         {
             "topic": "Тема 3. Рекурсивні функції, алгоритми та приклади їх застосування",
