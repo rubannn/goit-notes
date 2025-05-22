@@ -83,6 +83,6 @@ table.comment-table td {
     padding: 6px 8px;
     text-align: center;
     background-color: #ffe6ea;
-    border-radius: 5px;
+    border-radius: 8px;
     /* для скругления углов, если нужно */
 }
