@@ -44,7 +44,7 @@ function generateTableFromJSON(data) {
         if (rowData.comment && rowData.comment.trim() !== '') {
             const commentDiv = document.createElement('div');
             commentDiv.className = 'comment';
-            commentDiv.textContent = rowData.comment;
+            commentDiv.innerHTML = rowData.comment;
             topicContainer.appendChild(commentDiv);
         }
 
