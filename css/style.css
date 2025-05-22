@@ -49,11 +49,11 @@ input[type="checkbox"] {
 .deadline {
     font-family: monospace;
     text-align: center;
-    width: 3%;
+    width: 5%;
 }
 
 .checkbox-cell {
-    width: 3%;
+    width: 5%;
 }
 
 h2 {
