@@ -49,6 +49,7 @@ input[type="checkbox"] {
 .deadline {
     font-family: monospace;
     text-align: center;
+    width: auto;
 }
 
 h2 {
@@ -85,4 +86,8 @@ table.comment-table td {
     background-color: #ffe6ea;
     border-radius: 8px;
     /* для скругления углов, если нужно */
+}
+
+.checkbox-cell {
+    width: auto;
 }
