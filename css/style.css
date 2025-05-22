@@ -4,6 +4,10 @@ table {
     margin: 20px auto;
 }
 
+table.comment-table {
+    background-color: darkseagreen;
+}
+
 tr:hover {
     background-color: #d1cece;
     transition: background-color 0.2s ease;
