@@ -69,7 +69,7 @@ table.comment-table {
     margin: 20px auto;
     border-collapse: collapse;
 
-    border: 1px solid #d0d0d0;
+    border: 3px solid #d0d0d0;
     /* Рамка вокруг таблицы */
     border-radius: 5px;
     overflow: hidden;
