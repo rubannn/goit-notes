@@ -68,8 +68,7 @@ table.comment-table {
     width: 75%;
     margin: 20px auto;
     border-collapse: collapse;
-    /* Убирает двойные границы */
-    margin: 6px 0;
+    
     background-color: #f8f8f8;
     /* Светло-серый фон таблицы */
     border: 1px solid #d0d0d0;
