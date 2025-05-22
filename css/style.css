@@ -1,0 +1,65 @@
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 20px auto;
+}
+
+tr:hover {
+    background-color: #d1cece;
+    transition: background-color 0.2s ease;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #0366d6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input[type="checkbox"] {
+    pointer-events: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.checkbox-cell {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.deadline-close {
+    background-color: #e0e0e0;
+}
+
+.time-left,
+.deadline {
+    font-family: monospace;
+    text-align: center;
+}
+
+.comment {
+    background-color: #ffc0cb;
+    padding: 4px;
+    margin-top: 4px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-left: 10%;
+}
