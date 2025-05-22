@@ -66,6 +66,7 @@ h2 {
 
 table.comment-table {
     width: 75%;
+    margin: 20px auto;
     border-collapse: collapse;
     /* Убирает двойные границы */
     margin: 6px 0;
