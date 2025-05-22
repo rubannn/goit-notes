@@ -127,6 +127,7 @@ function generateTableFromJSON(data) {
         // Verified checkbox
         const verifiedCell = document.createElement('td');
         verifiedCell.className = 'checkbox-cell';
+        verifiedCell.classList.add('verified-cell');
         const verifiedCheckbox = document.createElement('input');
         verifiedCheckbox.type = 'checkbox';
         verifiedCheckbox.checked = rowData.verified;
@@ -161,7 +162,7 @@ function initializeTimeLeft() {
             deadlineDate.setHours(23, 59, 59, 999);
 
             const timeDiff = deadlineDate.getTime() - now.getTime();
-            const verifiedCheckbox = cell.parentElement.querySelector('td:nth-child(6) input[type="checkbox"]');
+            const verifiedCheckbox = cell.closest('tr').querySelector('.verified-cell input[type="checkbox"]');
 
             if (verifiedCheckbox.checked) {
                 timeLeftCells[index].textContent = "Ok";
