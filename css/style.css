@@ -4,8 +4,9 @@ table {
     margin: 20px auto;
 }
 
-table.comment-table {
-    background-color: darkseagreen;
+table.comment-table,
+table.comment-table th {
+    background-color: #c6dfc6
 }
 
 tr:hover {
