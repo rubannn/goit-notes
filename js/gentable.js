@@ -282,6 +282,24 @@ function initializeTimeLeft() {
 }
 
 // Generate the table when the page loads
+// document.addEventListener('DOMContentLoaded', function () {
+//     generateTableFromJSON(tableData);
+// });
+
+
 document.addEventListener('DOMContentLoaded', function () {
-    generateTableFromJSON(tableData);
+    fetch('data.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            generateTableFromJSON(data);
+        })
+        .catch(error => {
+            console.error('Error loading JSON data:', error);
+            document.getElementById('table-container').textContent = 'Error loading data. Please try again later.';
+        });
 });
