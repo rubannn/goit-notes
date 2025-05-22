@@ -46,7 +46,46 @@ function generateTableFromJSON(data) {
         if (rowData.comment && rowData.comment.trim() !== '') {
             const commentDiv = document.createElement('div');
             commentDiv.className = 'comment';
-            commentDiv.innerHTML = rowData.comment;
+
+            // Check if comment matches the special format "[x], [y,z...]"
+            const specialFormatRegex = /^\[(\d+)\],\s*\[([\d,]+)\]$/;
+            const match = rowData.comment.match(specialFormatRegex);
+
+            if (match) {
+                const totalColumns = parseInt(match[1]);
+                const checkedColumns = match[2].split(',').map(Number);
+
+                // Create a table for the special format
+                const specialTable = document.createElement('table');
+                specialTable.className = 'comment-table';
+
+                // Create header row with numbers 1 to totalColumns
+                const headerRow = document.createElement('tr');
+                for (let i = 1; i <= totalColumns; i++) {
+                    const th = document.createElement('th');
+                    th.textContent = i;
+                    headerRow.appendChild(th);
+                }
+                specialTable.appendChild(headerRow);
+
+                // Create checkbox row
+                const checkboxRow = document.createElement('tr');
+                for (let i = 1; i <= totalColumns; i++) {
+                    const td = document.createElement('td');
+                    const checkbox = document.createElement('input');
+                    checkbox.type = 'checkbox';
+                    checkbox.checked = checkedColumns.includes(i);
+                    checkbox.readOnly = true;
+                    td.appendChild(checkbox);
+                    checkboxRow.appendChild(td);
+                }
+                specialTable.appendChild(checkboxRow);
+
+                commentDiv.appendChild(specialTable);
+            } else {
+                // Regular comment content
+                commentDiv.innerHTML = rowData.comment;
+            }
             topicContainer.appendChild(commentDiv);
         }
 
