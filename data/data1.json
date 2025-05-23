@@ -111,10 +111,10 @@
         {
             "topic": "Наукова публікація 2",
             "link": "",
-            "done": false,
+            "done": true,
             "score": false,
             "deadline": "16.06.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         }
     ]
