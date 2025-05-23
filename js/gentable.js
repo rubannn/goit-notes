@@ -58,6 +58,7 @@ function generateTableFromJSON(data, file) {
                 const totalColumns = parseInt(match[1]);
                 // Remove all whitespace and split by commas
                 const checkedColumns = match[2].replace(/\s/g, '').split(',').map(Number);
+                console.log(checkedColumns);
 
                 // Create a table for the special format
                 const specialTable = document.createElement('table');
