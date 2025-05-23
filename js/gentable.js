@@ -264,11 +264,12 @@ document.addEventListener('DOMContentLoaded', function () {
                     .then(data => {
                         console.log(`Loaded data from file: ${file}`, data.title, data.rows.length);
                         generateTableFromJSON(data, file);
+
                     })
                     .catch(error => {
                         console.error(`Error loading JSON data from file ${file}:`, error);
                         // Можно добавить обработку ошибок для каждого файла
-                        return Promise.resolve(); // Продолжаем выполнение для других файлов
+                        // return Promise.resolve(); // Продолжаем выполнение для других файлов
                     });
             });
 
