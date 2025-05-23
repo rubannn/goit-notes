@@ -1,8 +1,10 @@
 // Function to generate the table from JSON data
-function generateTableFromJSON(data) {
+function generateTableFromJSON(data, file) {
     const container = document.getElementById('table-container');
 
     const newblock = document.createElement('div');
+    newblock.className = file.replace('.json', '');
+
     const title = document.createElement('h2');
     title.textContent = data.title;
 
@@ -261,7 +263,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     })
                     .then(data => {
                         console.log(`Loaded data from file: ${file}`, data.title, data.rows.length);
-                        generateTableFromJSON(data);
+                        generateTableFromJSON(data, file);
                     })
                     .catch(error => {
                         console.error(`Error loading JSON data from file ${file}:`, error);
