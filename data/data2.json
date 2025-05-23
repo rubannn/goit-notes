@@ -1,0 +1,121 @@
+{
+    "title": "Basic Algorithms and Data Structures",
+    "headers": [
+        "Тема",
+        "Зроблено",
+        "Бали",
+        "Дедлайн",
+        "Залишилось",
+        "Перевірено"
+    ],
+    "rows": [
+        {
+            "topic": "Тема 2. Основні структури даних",
+            "link": "https://github.com/rubannn/goit-algo-hw-02",
+            "done": true,
+            "score": false,
+            "deadline": "26.05.2025",
+            "verified": true,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 3. Рекурсивні функції, алгоритми та приклади їх застосування",
+            "link": "https://github.com/rubannn/goit-algo-hw-03",
+            "done": true,
+            "score": false,
+            "deadline": "02.06.2025",
+            "verified": true,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 4. Алгоритми сортування",
+            "link": "https://github.com/rubannn/goit-algo-hw-04",
+            "done": true,
+            "score": false,
+            "deadline": "02.06.2025",
+            "verified": true,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 5. Алгоритми пошуку",
+            "link": "https://github.com/rubannn/goit-algo-hw-05",
+            "done": true,
+            "score": false,
+            "deadline": "09.06.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 6. Графи",
+            "link": "https://github.com/rubannn/goit-algo-hw-06",
+            "done": true,
+            "score": false,
+            "deadline": "09.06.2025",
+            "verified": true,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 7. Дерева та балансування",
+            "link": "https://github.com/rubannn/goit-algo-hw-07",
+            "done": true,
+            "score": true,
+            "deadline": "16.06.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 8. Купи",
+            "link": "https://github.com/rubannn/goit-algo-hw-08",
+            "done": true,
+            "score": false,
+            "deadline": "16.06.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 9. Жадібні алгоритми та динамічне програмування",
+            "link": "https://github.com/rubannn/goit-algo-hw-09",
+            "done": true,
+            "score": false,
+            "deadline": "22.06.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 10. Лінійне програмування та рандомізовані алгоритми",
+            "link": "https://github.com/rubannn/goit-algo-hw-10",
+            "done": true,
+            "score": false,
+            "deadline": "22.06.2025",
+            "verified": false,
+            "comment": "Подумати про заміну функції в завданні 2"
+        },
+        {
+            "topic": "Фінальний проєкт",
+            "link": "https://github.com/rubannn/goit-algo-final",
+            "done": false,
+            "score": true,
+            "deadline": "22.06.2025",
+            "verified": false,
+            "comment": "[7], [1, 2, 4, 5, 6]"
+        },
+        {
+            "topic": "Наукова публікація 1",
+            "link": "",
+            "done": true,
+            "score": false,
+            "deadline": "26.05.2025",
+            "verified": true,
+            "comment": ""
+        },
+        {
+            "topic": "Наукова публікація 2",
+            "link": "",
+            "done": false,
+            "score": false,
+            "deadline": "16.06.2025",
+            "verified": false,
+            "comment": ""
+        }
+    ]
+}

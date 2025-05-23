@@ -2,6 +2,7 @@
 function generateTableFromJSON(data) {
     const container = document.getElementById('table-container');
 
+    const newblock = document.createElement('div');
     const title = document.createElement('h2');
     title.textContent = data.title;
 
@@ -139,8 +140,13 @@ function generateTableFromJSON(data) {
     });
 
     table.appendChild(tbody);
-    container.appendChild(title);
-    container.appendChild(table);
+
+    newblock.appendChild(title);
+    newblock.appendChild(table);
+    container.appendChild(newblock);
+
+    // container.appendChild(title);
+    // container.appendChild(table);
 
     // Initialize the time left functionality
     initializeTimeLeft();
@@ -207,25 +213,66 @@ function initializeTimeLeft() {
     setInterval(updateTimeLeft, 60000);
 }
 
-// Generate the table when the page loads
+
+
 // document.addEventListener('DOMContentLoaded', function () {
-//     generateTableFromJSON(tableData);
+//     fetch('./data/file-list.json')
+//         .then(response => response.json());
+
+//     fetch('./data/${file}')
+//         .then(response => {
+//             if (!response.ok) {
+//                 throw new Error('Network response was not ok');
+//             }
+//             return response.json();
+//         })
+//         .then(data => {
+//             generateTableFromJSON(data);
+//         })
+//         .catch(error => {
+//             console.error('Error loading JSON data:', error);
+//             document.getElementById('table-container').textContent = 'Error loading data. Please try again later.';
+//         });
 // });
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('./data/data.json')
+    fetch('./data/file-list.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
             return response.json();
         })
-        .then(data => {
-            generateTableFromJSON(data);
+        .then(fileList => {
+            // Проверяем, что fileList является массивом
+            if (!Array.isArray(fileList)) {
+                throw new Error('File list is not an array');
+            }
+
+            // Для каждого файла в списке выполняем запрос
+            const fetchPromises = fileList.map(file => {
+                return fetch(`./data/${file}`)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`Network response for file ${file} was not ok`);
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        generateTableFromJSON(data);
+                    })
+                    .catch(error => {
+                        console.error(`Error loading JSON data from file ${file}:`, error);
+                        // Можно добавить обработку ошибок для каждого файла
+                        return Promise.resolve(); // Продолжаем выполнение для других файлов
+                    });
+            });
+
+            return Promise.all(fetchPromises);
         })
         .catch(error => {
-            console.error('Error loading JSON data:', error);
+            console.error('Error loading file list:', error);
             document.getElementById('table-container').textContent = 'Error loading data. Please try again later.';
         });
 });
