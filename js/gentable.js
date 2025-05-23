@@ -260,6 +260,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         return response.json();
                     })
                     .then(data => {
+                        console.log(`Loaded data from file: ${file}`, data.title);
                         generateTableFromJSON(data);
                     })
                     .catch(error => {
