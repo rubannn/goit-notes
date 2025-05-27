@@ -47,7 +47,7 @@ function generateTableFromJSON(data, file) {
 
         // Add LMS
         const lmsCell = document.createElement('td');
-        lmsCell.className = 'deadline';
+        lmsCell.className = 'lms-cell';
         if (rowData.lms_link && rowData.lms_link.trim() !== '') {
             const lmslink = document.createElement('a');
             lmslink.href = rowData.lms_link;
