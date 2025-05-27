@@ -46,50 +46,72 @@ function generateTableFromJSON(data, file) {
         topicContainer.appendChild(link);
 
         // Add comment if exists
-        if (rowData.comment && rowData.comment.trim() !== '') {
+        if (rowData.comment && (rowData.comment.text || rowData.comment.tasks)) {
             const commentDiv = document.createElement('div');
             commentDiv.className = 'comment';
+            commentDiv.style.display = 'flex'; // Располагаем элементы в одной строке
+            commentDiv.style.gap = '10px'; // Добавляем отступ между элементами
+            commentDiv.style.width = '100%'; // Занимает всю доступную ширину
 
-            // Check if comment matches the special format "[x], [y,z...]" with any whitespace
-            const specialFormatRegex = /^\[\s*(\d+)\s*\],\s*\[\s*([\d\s,]+)\s*\]$/;
-            const match = rowData.comment.match(specialFormatRegex);
-
-            if (match) {
-                const totalColumns = parseInt(match[1]);
-                // Remove all whitespace and split by commas
-                const checkedColumns = match[2].replace(/\s/g, '').split(',').map(Number);
-
-                // Create a table for the special format
-                const specialTable = document.createElement('table');
-                specialTable.className = 'comment-table';
-
-                // Create header row with numbers 1 to totalColumns
-                const headerRow = document.createElement('tr');
-                for (let i = 1; i <= totalColumns; i++) {
-                    const th = document.createElement('th');
-                    th.textContent = i;
-                    headerRow.appendChild(th);
-                }
-                specialTable.appendChild(headerRow);
-
-                // Create checkbox row
-                const checkboxRow = document.createElement('tr');
-                for (let i = 1; i <= totalColumns; i++) {
-                    const td = document.createElement('td');
-                    const checkbox = document.createElement('input');
-                    checkbox.type = 'checkbox';
-                    checkbox.checked = checkedColumns.includes(i);
-                    checkbox.readOnly = true;
-                    td.appendChild(checkbox);
-                    checkboxRow.appendChild(td);
-                }
-                specialTable.appendChild(checkboxRow);
-
-                commentDiv.appendChild(specialTable);
-            } else {
-                // Regular comment content
-                commentDiv.innerHTML = rowData.comment;
+            // Text comment
+            if (rowData.comment.text && rowData.comment.text.trim() !== '') {
+                const textDiv = document.createElement('div');
+                textDiv.style.flex = '1'; // Занимает 50% ширины
+                textDiv.style.minWidth = '0'; // Для правильного сжатия текста
+                textDiv.textContent = rowData.comment.text;
+                commentDiv.appendChild(textDiv);
             }
+
+            // Tasks comment
+            if (rowData.comment.tasks && rowData.comment.tasks.trim() !== '') {
+                const tasksDiv = document.createElement('div');
+                tasksDiv.style.flex = '1'; // Занимает 50% ширины
+                tasksDiv.style.minWidth = '0'; // Для правильного сжатия содержимого
+
+                // Check if tasks matches the special format "[x], [y,z...]" with any whitespace
+                const specialFormatRegex = /^\[\s*(\d+)\s*\],\s*\[\s*([\d\s,]+)\s*\]$/;
+                const match = rowData.comment.tasks.match(specialFormatRegex);
+
+                if (match) {
+                    const totalColumns = parseInt(match[1]);
+                    // Remove all whitespace and split by commas
+                    const checkedColumns = match[2].replace(/\s/g, '').split(',').map(Number);
+
+                    // Create a table for the special format
+                    const specialTable = document.createElement('table');
+                    specialTable.className = 'comment-table';
+
+                    // Create header row with numbers 1 to totalColumns
+                    const headerRow = document.createElement('tr');
+                    for (let i = 1; i <= totalColumns; i++) {
+                        const th = document.createElement('th');
+                        th.textContent = i;
+                        headerRow.appendChild(th);
+                    }
+                    specialTable.appendChild(headerRow);
+
+                    // Create checkbox row
+                    const checkboxRow = document.createElement('tr');
+                    for (let i = 1; i <= totalColumns; i++) {
+                        const td = document.createElement('td');
+                        const checkbox = document.createElement('input');
+                        checkbox.type = 'checkbox';
+                        checkbox.checked = checkedColumns.includes(i);
+                        checkbox.readOnly = true;
+                        td.appendChild(checkbox);
+                        checkboxRow.appendChild(td);
+                    }
+                    specialTable.appendChild(checkboxRow);
+
+                    tasksDiv.appendChild(specialTable);
+                } else {
+                    // Regular tasks content
+                    tasksDiv.textContent = rowData.comment.tasks;
+                }
+
+                commentDiv.appendChild(tasksDiv);
+            }
+
             topicContainer.appendChild(commentDiv);
         }
 
@@ -305,7 +327,7 @@ data = {
             "score": false,
             "deadline": "22.06.2025",
             "verified": false,
-            "comment": "Подумати про заміну функції в завданні 2"
+            "comment": {"text":"Подумати про заміну функції в завданні 2", "tasks": "[2], [1]"}
         },
         {
             "topic": "Фінальний проєкт",
@@ -314,7 +336,7 @@ data = {
             "score": true,
             "deadline": "22.06.2025",
             "verified": false,
-            "comment": "[7], [1, 2, 4, 5, 6, 3]"
+            "comment": {"text": "", "tasks": "[7], [1, 2, 4, 5, 6, 3]"}
         },
         {
             "topic": "Наукова публікація 1",

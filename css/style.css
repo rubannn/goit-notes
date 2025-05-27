@@ -66,28 +66,42 @@ h2 {
     padding: 4px;
     margin-top: 4px;
     border-radius: 3px;
-    font-size: 0.9em;
+    font-size: 14px;
 }
 
-table.comment-table {
-    width: 75%;
-    margin: 20px auto;
-    border-collapse: collapse;
 
-    border: 3px solid #d0d0d0;
-    /* Рамка вокруг таблицы */
-    border-radius: 5px;
-    overflow: hidden;
-    /* Для скругления углов */
+table.comment-table {
+    width: auto;
+    /* Автоматическая ширина по содержимому */
+    margin: 0 0 0 auto;
+    /* Прижимаем к правому краю и убираем верхний отступ */
+    border-collapse: separate;
+    /* Раздельные границы для скругления углов */
+    border-spacing: 2px;
+    /* Расстояние между ячейками */
+    border: none;
+    /* Убираем внешнюю рамку */
 }
 
 table.comment-table th,
 table.comment-table td {
+    width: 45px;
+    /* Фиксированная ширина колонок */
+    height: 45px;
+    /* Фиксированная высота ячеек */
     border: 1px solid #c0c0c0;
     /* Границы ячеек */
-    padding: 6px 8px;
+    padding: 0;
+    /* Убираем внутренние отступы */
     text-align: center;
     background-color: #ffe6ea;
-    border-radius: 8px;
-    /* для скругления углов, если нужно */
+    border-radius: 4px;
+    /* Скругление углов ячеек */
+}
+
+table.comment-table th {
+    background-color: #ffe6ea;
+    /* Другой цвет для заголовков */
+    font-size: 16px;
+    font-weight: bold;
 }
