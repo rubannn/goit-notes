@@ -2,6 +2,7 @@
     "title": "Second Basic Algorithms and Data Structures",
     "headers": [
         "Тема",
+        "LMS",
         "Зроблено",
         "Бали",
         "Дедлайн",
@@ -12,6 +13,7 @@
         {
             "topic": "Тема 23. Основні структури даних",
             "link": "https://github.com/rubannn/goit-algo-hw-02",
+            "lms_link": "",
             "done": true,
             "score": false,
             "deadline": "26.05.2025",

@@ -45,6 +45,18 @@ function generateTableFromJSON(data, file) {
         link.rel = 'noopener noreferrer'; // Security best practice
         topicContainer.appendChild(link);
 
+        // Add LMS
+        const lmsCell = document.createElement('td');
+        lmsCell.className = 'deadline';
+        if (rowData.lms_link && rowData.lms_link.trim() !== '') {
+            const lmslink = document.createElement('a');
+            lmslink.href = rowData.lms_link;
+            lmslink.textContent = 'ДЗ';
+            lmslink.target = '_blank'; // Open in new tab
+            lmslink.rel = 'noopener noreferrer'; // Security best practice
+            lmsCell.appendChild(lmslink);
+        }
+
         if (rowData.comment && (rowData.comment.text || rowData.comment.tasks)) {
             const commentDiv = document.createElement('div');
             commentDiv.className = 'comment';
@@ -117,6 +129,7 @@ function generateTableFromJSON(data, file) {
 
         topicCell.appendChild(topicContainer);
         row.appendChild(topicCell);
+        row.appendChild(lmsCell);
 
         // Done checkbox
         const doneCell = document.createElement('td');
@@ -236,29 +249,6 @@ function initializeTimeLeft() {
     updateTimeLeft();
     setInterval(updateTimeLeft, 60000);
 }
-
-
-
-// document.addEventListener('DOMContentLoaded', function () {
-//     fetch('./data/file-list.json')
-//         .then(response => response.json());
-
-//     fetch('./data/${file}')
-//         .then(response => {
-//             if (!response.ok) {
-//                 throw new Error('Network response was not ok');
-//             }
-//             return response.json();
-//         })
-//         .then(data => {
-//             generateTableFromJSON(data);
-//         })
-//         .catch(error => {
-//             console.error('Error loading JSON data:', error);
-//             document.getElementById('table-container').textContent = 'Error loading data. Please try again later.';
-//         });
-// });
-
 
 document.addEventListener('DOMContentLoaded', function () {
     fetch('./data/file-list.json')
