@@ -208,7 +208,7 @@ function initializeTimeLeft() {
             const verifiedCheckbox = cell.closest('tr').querySelector('.verified-cell input[type="checkbox"]');
 
             if (verifiedCheckbox.checked) {
-                timeLeftCells[index].textContent = "Ok";
+                timeLeftCells[index].innerHTML = '<span style="color: green; font-weight: bold; font-size: 16px;">✓</span>';
                 return;
             }
 
