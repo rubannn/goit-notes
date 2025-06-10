@@ -107,7 +107,7 @@
             "done": true,
             "score": true,
             "deadline": "22.06.2025",
-            "verified": false,
+            "verified": true,
             "comment": {
                 "text": "",
                 "tasks": "[7], [1, 2, 4, 5, 6, 3, 7]"
