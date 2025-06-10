@@ -98,10 +98,7 @@
             "score": false,
             "deadline": "22.06.2025",
             "verified": false,
-            "comment": {
-                "text": "Подумати про заміну функції в завданні 2",
-                "tasks": "[2], [1]"
-            }
+            "comment": ""
         },
         {
             "topic": "Фінальний проєкт",
