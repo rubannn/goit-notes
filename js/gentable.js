@@ -59,7 +59,6 @@ function generateTableFromJSON(data, file) {
 
         if (rowData.comment && (rowData.comment.text || rowData.comment.tasks)) {
             const commentDiv = document.createElement('div');
-            commentDiv.className = 'comment';
             commentDiv.style.display = 'flex'; // Располагаем элементы в одной строке
             commentDiv.style.gap = '10px'; // Добавляем отступ между элементами
             commentDiv.style.width = '100%'; // Занимает всю доступную ширину
@@ -70,6 +69,8 @@ function generateTableFromJSON(data, file) {
                 textDiv.style.flex = '1'; // Занимает 50% ширины
                 textDiv.style.minWidth = '0'; // Для правильного сжатия текста
                 textDiv.textContent = rowData.comment.text;
+
+                commentDiv.classList.add('comment');
                 commentDiv.appendChild(textDiv);
             }
 

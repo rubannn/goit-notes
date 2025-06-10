@@ -104,7 +104,7 @@
             "topic": "Фінальний проєкт",
             "link": "https://github.com/rubannn/goit-algo-final",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/19646173/19656868/homework",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "22.06.2025",
             "verified": false,
