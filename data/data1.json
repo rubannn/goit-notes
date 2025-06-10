@@ -95,9 +95,9 @@
             "link": "https://github.com/rubannn/goit-algo-hw-10",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/19646173/19658355/homework",
             "done": true,
-            "score": false,
+            "score": true,
             "deadline": "22.06.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
