@@ -57,7 +57,45 @@ input[type="checkbox"] {
 h2 {
     margin-top: 20px;
     margin-left: 10%;
+    cursor: pointer;
+    position: relative;
+    padding-left: 20px;
 }
+
+h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    transition: all 0.3s ease;
+}
+
+h2:hover {
+    color: #0066cc;
+    /* Цвет при наведении (может совпадать со стрелкой) */
+}
+
+h2:hover::before {
+    opacity: 0.8;
+}
+
+h2.expanded::before {
+    /* Стрелка вниз */
+    border-width: 8px 5px 0 5px;
+    border-color: #0066cc transparent transparent transparent;
+}
+
+h2.collapsed::before {
+    /* Стрелка вправо */
+    border-width: 5px 0 5px 8px;
+    border-color: transparent transparent transparent #0066cc;
+}
+
+
 
 .comment {
     background-color: #ffc0cb;
@@ -85,6 +123,7 @@ table.comment-table th {
     width: 40px;
     height: 40px;
 }
+
 table.comment-table td {
     width: 40px;
     height: 40px;
