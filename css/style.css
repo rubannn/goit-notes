@@ -81,12 +81,17 @@ table.comment-table {
     /* Убираем внешнюю рамку */
 }
 
+table.comment-table th {
+    width: 40px;
+    height: 40px;
+}
+table.comment-table td {
+    width: 40px;
+    height: 40px;
+}
+
 table.comment-table th,
 table.comment-table td {
-    width: 45px;
-    /* Фиксированная ширина колонок */
-    height: 45px;
-    /* Фиксированная высота ячеек */
     border: 1px solid #c0c0c0;
     /* Границы ячеек */
     padding: 0;

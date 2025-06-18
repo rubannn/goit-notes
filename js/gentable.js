@@ -17,7 +17,7 @@ function generateTableFromJSON(data, file) {
 
     data.headers.forEach(headerText => {
         const th = document.createElement('th');
-        if (headerText === 'Зроблено' || headerText === 'Бали' || headerText === 'Перевірено') {
+        if (headerText === 'Finished' || headerText === 'Scores' || headerText === 'Inspected') {
             th.className = 'checkbox-cell';
         }
         th.textContent = headerText;
@@ -51,7 +51,7 @@ function generateTableFromJSON(data, file) {
         if (rowData.lms_link && rowData.lms_link.trim() !== '') {
             const lmslink = document.createElement('a');
             lmslink.href = rowData.lms_link;
-            lmslink.textContent = 'ДЗ';
+            lmslink.textContent = '</link>';
             lmslink.target = '_blank'; // Open in new tab
             lmslink.rel = 'noopener noreferrer'; // Security best practice
             lmsCell.appendChild(lmslink);
@@ -144,12 +144,14 @@ function generateTableFromJSON(data, file) {
 
         // Score checkbox
         const scoreCell = document.createElement('td');
-        scoreCell.className = 'checkbox-cell';
-        const scoreCheckbox = document.createElement('input');
-        scoreCheckbox.type = 'checkbox';
-        scoreCheckbox.checked = rowData.score;
-        scoreCheckbox.readOnly = true;
-        scoreCell.appendChild(scoreCheckbox);
+        if (rowData.score) {
+            scoreCell.className = 'checkbox-cell';
+            const scoreCheckbox = document.createElement('input');
+            scoreCheckbox.type = 'checkbox';
+            scoreCheckbox.checked = rowData.score;
+            scoreCheckbox.readOnly = true;
+            scoreCell.appendChild(scoreCheckbox);
+        }
         row.appendChild(scoreCell);
 
         // Deadline

@@ -1,13 +1,13 @@
 {
     "title": "Basic Algorithms and Data Structures",
     "headers": [
-        "Тема",
+        "Git Repository",
         "LMS",
-        "Зроблено",
-        "Бали",
-        "Дедлайн",
-        "Залишилось",
-        "Перевірено"
+        "Finished",
+        "Scores",
+        "Deadline",
+        "Countdown",
+        "Inspected"
     ],
     "rows": [
         {
@@ -136,7 +136,7 @@
         {
             "topic": "Фінальне тестування",
             "link": "",
-            "lms_link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/19646173/19656859/training",
             "done": false,
             "score": true,
             "deadline": "22.06.2025",

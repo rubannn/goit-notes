@@ -1,13 +1,13 @@
 {
     "title": "Second Basic Algorithms and Data Structures",
     "headers": [
-        "Тема",
+        "Git Repository",
         "LMS",
-        "Зроблено",
-        "Бали",
-        "Дедлайн",
-        "Залишилось",
-        "Перевірено"
+        "Finished",
+        "Scores",
+        "Deadline",
+        "Countdown",
+        "Inspected"
     ],
     "rows": [
         {
