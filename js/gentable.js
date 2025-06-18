@@ -12,7 +12,7 @@ function generateTableFromJSON(data, file, num) {
 
     // Create table element
     const table = document.createElement('table');
-    table.style.display = data.collapse ? 'table' : 'none';
+    table.style.display = data.collapse ? 'none' : 'table';
 
     // add event listener to toggle table visibility
     title.addEventListener('click', function() {
