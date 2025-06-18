@@ -1,15 +1,31 @@
 // Function to generate the table from JSON data
-function generateTableFromJSON(data, file) {
+function generateTableFromJSON(data, file, num) {
     const container = document.getElementById('table-container');
 
     const newblock = document.createElement('div');
     newblock.className = file.replace('.json', '');
 
     const title = document.createElement('h2');
-    title.textContent = data.title;
+    title.textContent = num + '. ' + data.title;
+    // Add cursor pointer style to the title
+    title.style.cursor = 'pointer';
 
     // Create table element
     const table = document.createElement('table');
+    table.style.display = data.collapse ? 'table' : 'none';
+
+    // add event listener to toggle table visibility
+    title.addEventListener('click', function() {
+        if (table.style.display === 'none') {
+            table.style.display = 'table';
+            this.classList.remove('collapsed');
+            this.classList.add('expanded');
+        } else {
+            table.style.display = 'none';
+            this.classList.remove('expanded');
+            this.classList.add('collapsed');
+        }
+    });
 
     // Create table header
     const thead = document.createElement('thead');
@@ -266,6 +282,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (!Array.isArray(fileList)) {
                 throw new Error('File list is not an array');
             }
+            let num = fileList.length;
 
             // Для каждого файла в списке выполняем запрос
             const fetchPromises = fileList.map(file => {
@@ -278,7 +295,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     })
                     .then(data => {
                         console.log(`Loaded data from file: ${file}`, data.title, data.rows.length);
-                        generateTableFromJSON(data, file);
+                        generateTableFromJSON(data, file, num--);
 
                     })
                     .catch(error => {
