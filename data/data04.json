@@ -1,0 +1,25 @@
+{
+    "title": "Advanced JavaScript and TypeScript: Tools and Best Practices",
+    "collapse": true,
+    "headers": [
+        "Git Repository",
+        "LMS",
+        "Finished",
+        "Scores",
+        "Deadline",
+        "Countdown",
+        "Inspected"
+    ],
+    "rows": [
+        {
+            "topic": "Тема 23. Основні структури даних",
+            "link": "https://github.com/rubannn/goit-algo-hw-02",
+            "lms_link": "",
+            "done": true,
+            "score": false,
+            "deadline": "26.05.2025",
+            "verified": true,
+            "comment": ""
+        }
+    ]
+}
