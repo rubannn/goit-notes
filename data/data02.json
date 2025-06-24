@@ -16,7 +16,7 @@
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/20712526/20712847/homework",
             "done": false,
-            "score": false,
+            "score": true,
             "deadline": "07.07.2025",
             "verified": false,
             "comment": ""
@@ -26,7 +26,7 @@
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/20712526/20712854/homework",
             "done": false,
-            "score": false,
+            "score": true,
             "deadline": "13.07.2025",
             "verified": false,
             "comment": ""
@@ -56,7 +56,7 @@
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/20712526/20713361/homework",
             "done": false,
-            "score": false,
+            "score": true,
             "deadline": "03.08.2025",
             "verified": false,
             "comment": ""
@@ -76,7 +76,7 @@
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/20712526/20713447/training?blockId=20713708",
             "done": false,
-            "score": false,
+            "score": true,
             "deadline": "17.08.2025",
             "verified": false,
             "comment": ""
