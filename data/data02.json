@@ -1,6 +1,6 @@
 {
     "title": "HTML and CSS Fundamentals for User Interface Design",
-    "collapse": true,
+    "collapse": false,
     "headers": [
         "Git Repository",
         "LMS",
@@ -12,13 +12,73 @@
     ],
     "rows": [
         {
-            "topic": "Тема 23. Основні структури даних",
+            "topic": "Тема 1.",
             "link": "https://github.com/rubannn/goit-algo-hw-02",
             "lms_link": "",
-            "done": true,
+            "done": false,
             "score": false,
-            "deadline": "26.05.2025",
-            "verified": true,
+            "deadline": "26.06.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 2.",
+            "link": "https://github.com/rubannn/goit-algo-hw-02",
+            "lms_link": "",
+            "done": false,
+            "score": false,
+            "deadline": "26.06.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 3.",
+            "link": "https://github.com/rubannn/goit-algo-hw-02",
+            "lms_link": "",
+            "done": false,
+            "score": false,
+            "deadline": "26.06.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 4.",
+            "link": "https://github.com/rubannn/goit-algo-hw-02",
+            "lms_link": "",
+            "done": false,
+            "score": false,
+            "deadline": "26.06.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 5.",
+            "link": "https://github.com/rubannn/goit-algo-hw-02",
+            "lms_link": "",
+            "done": false,
+            "score": false,
+            "deadline": "26.06.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 6.",
+            "link": "https://github.com/rubannn/goit-algo-hw-02",
+            "lms_link": "",
+            "done": false,
+            "score": false,
+            "deadline": "26.06.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 7.",
+            "link": "https://github.com/rubannn/goit-algo-hw-02",
+            "lms_link": "",
+            "done": false,
+            "score": false,
+            "deadline": "26.06.2025",
+            "verified": false,
             "comment": ""
         }
     ]
