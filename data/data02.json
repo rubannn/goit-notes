@@ -78,8 +78,11 @@
             "done": false,
             "score": true,
             "deadline": "17.08.2025",
-            "verified": false,
-            "comment": "переглянути https://github.com/SergeyKorobka/demo-vite/blob/main/.github/workflows/deploy.yml"
+            "verified": false,            
+            "comment": {
+                "text": "переглянути https://github.com/SergeyKorobka/demo-vite/blob/main/.github/workflows/deploy.yml",
+                "tasks": ""
+            }
         },
         {
             "topic": "Наукова публікація 1",
