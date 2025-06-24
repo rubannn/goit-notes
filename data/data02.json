@@ -80,7 +80,7 @@
             "deadline": "17.08.2025",
             "verified": false,            
             "comment": {
-                "text": "переглянути https://github.com/SergeyKorobka/demo-vite/blob/main/.github/workflows/deploy.yml",
+                "text": "переглянути <a href="https://github.com/SergeyKorobka/demo-vite/blob/main/.github/workflows/deploy.yml">test-vite-repo</a>",
                 "tasks": ""
             }
         },
