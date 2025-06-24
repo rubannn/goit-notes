@@ -84,7 +84,7 @@ function generateTableFromJSON(data, file, num) {
                 const textDiv = document.createElement('div');
                 textDiv.style.flex = '1'; // Занимает 50% ширины
                 textDiv.style.minWidth = '0'; // Для правильного сжатия текста
-                textDiv.textContent = rowData.comment.text;
+                textDiv.innerHTML = rowData.comment.text;
 
                 commentDiv.classList.add('comment');
                 commentDiv.appendChild(textDiv);
