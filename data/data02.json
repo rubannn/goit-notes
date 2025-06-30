@@ -15,10 +15,10 @@
             "topic": "Тема 1. Знайомство з HTML",
             "link": "https://github.com/rubannn/goit-markup-hw-01",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/20712526/20712847/homework",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "07.07.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
@@ -78,7 +78,7 @@
             "done": false,
             "score": true,
             "deadline": "17.08.2025",
-            "verified": false,            
+            "verified": false,
             "comment": {
                 "text": "переглянути <a href='https://github.com/SergeyKorobka/demo-vite/blob/main/.github/workflows/deploy.yml'>test-vite-repo</a>",
                 "tasks": ""
