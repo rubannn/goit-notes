@@ -19,7 +19,10 @@
             "score": true,
             "deadline": "07.07.2025",
             "verified": false,
-            "comment": ""
+            "comment": {
+                "text": "<a href='https://validator.w3.org/nu/'>Nu Html Checker</a>",
+                "tasks": ""
+            }
         },
         {
             "topic": "Тема 2. Вступ до CSS",
