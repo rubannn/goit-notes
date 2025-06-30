@@ -28,10 +28,10 @@
             "topic": "Тема 2. Вступ до CSS",
             "link": "https://github.com/rubannn/goit-markup-hw-02",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/20712526/20712854/homework",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "13.07.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
