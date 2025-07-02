@@ -19,10 +19,7 @@
             "score": true,
             "deadline": "07.07.2025",
             "verified": true,
-            "comment": {
-                "text": "<a href='https://validator.w3.org/nu/'>Nu Html Checker</a>",
-                "tasks": ""
-            }
+            "comment": ""
         },
         {
             "topic": "Тема 2. Вступ до CSS",
@@ -116,6 +113,19 @@
             "deadline": "10.08.2025",
             "verified": false,
             "comment": ""
+        },
+        {
+            "topic": "Корисні посилання",
+            "link": "",
+            "lms_link": "",
+            "done": false,
+            "score": false,
+            "deadline": "20.07.2025",
+            "verified": false,
+            "comment": {
+                "text": "<a href='https://validator.w3.org/nu/'>Nu Html Checker</a><br><a href='https://docs.emmet.io/cheat-sheet/'>Emmet комбінації</a>",
+                "tasks": ""
+            }
         }
     ]
 }
