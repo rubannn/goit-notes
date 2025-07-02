@@ -122,10 +122,17 @@
             "score": false,
             "deadline": "20.07.2025",
             "verified": false,
-            "comment": {
-                "text": "<a href='https://validator.w3.org/nu/'>Nu Html Checker</a><br><a href='https://docs.emmet.io/cheat-sheet/'>Emmet комбінації</a>",
-                "tasks": ""
-            }
+            "useful_links": [
+                {
+                    "text": "Nu Html Checker",
+                    "url": "https://validator.w3.org/nu/"
+                },
+                {
+                    "text": "Emmet комбінації",
+                    "url": "https://docs.emmet.io/cheat-sheet/"
+                }
+            ],
+            "comment": ""
         }
     ]
 }

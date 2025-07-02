@@ -53,144 +53,168 @@ function generateTableFromJSON(data, file, num) {
         const topicCell = document.createElement('td');
         const topicContainer = document.createElement('div');
 
-        // Add link
-        const link = document.createElement('a');
-        link.href = rowData.link;
-        link.textContent = rowData.topic;
-        link.target = '_blank'; // Open in new tab
-        link.rel = 'noopener noreferrer'; // Security best practice
-        topicContainer.appendChild(link);
+        if (rowData.useful_links && rowData.useful_links.length > 0) {
 
-        // Add LMS
-        const lmsCell = document.createElement('td');
-        lmsCell.className = 'lms-cell';
-        if (rowData.lms_link && rowData.lms_link.trim() !== '') {
-            const lmslink = document.createElement('a');
-            lmslink.href = rowData.lms_link;
-            lmslink.textContent = '</link>';
-            lmslink.target = '_blank'; // Open in new tab
-            lmslink.rel = 'noopener noreferrer'; // Security best practice
-            lmsCell.appendChild(lmslink);
+            const topic = document.createElement('p');
+            topic.textContent = rowData.topic;
+            topicContainer.appendChild(topic);
+
+            const linkList = document.createElement('ol');
+            linkList.className = 'useful-links';
+            rowData.useful_links.forEach(linkData => {
+                const linkElement = document.createElement('a');
+                linkElement.href = linkData.link;
+                linkElement.textContent = linkData.text;
+                linkElement.target = '_blank'; // Open in new tab
+                linkElement.rel = 'noopener noreferrer'; // Security best practice
+                linkList.appendChild(document.createElement('li')).appendChild(linkElement);
+            });
+            topicContainer.appendChild(linkList);
+
+            topicCell.setAttribute('colspan', '7');
+            topicCell.appendChild(topicContainer);
+
+            row.appendChild(topicCell);
         }
+        else {
 
-        if (rowData.comment && (rowData.comment.text || rowData.comment.tasks)) {
-            const commentDiv = document.createElement('div');
-            commentDiv.style.display = 'flex'; // Располагаем элементы в одной строке
-            commentDiv.style.gap = '10px'; // Добавляем отступ между элементами
-            commentDiv.style.width = '100%'; // Занимает всю доступную ширину
+            // Add link
+            const link = document.createElement('a');
+            link.href = rowData.link;
+            link.textContent = rowData.topic;
+            link.target = '_blank'; // Open in new tab
+            link.rel = 'noopener noreferrer'; // Security best practice
+            topicContainer.appendChild(link);
 
-            // Text comment
-            if (rowData.comment.text && rowData.comment.text.trim() !== '') {
-                const textDiv = document.createElement('div');
-                textDiv.style.flex = '1'; // Занимает 50% ширины
-                textDiv.style.minWidth = '0'; // Для правильного сжатия текста
-                textDiv.innerHTML = rowData.comment.text;
-
-                commentDiv.classList.add('comment');
-                commentDiv.appendChild(textDiv);
+            // Add LMS
+            const lmsCell = document.createElement('td');
+            lmsCell.className = 'lms-cell';
+            if (rowData.lms_link && rowData.lms_link.trim() !== '') {
+                const lmslink = document.createElement('a');
+                lmslink.href = rowData.lms_link;
+                lmslink.textContent = '</link>';
+                lmslink.target = '_blank'; // Open in new tab
+                lmslink.rel = 'noopener noreferrer'; // Security best practice
+                lmsCell.appendChild(lmslink);
             }
 
-            // Tasks comment
-            if (rowData.comment.tasks && rowData.comment.tasks.trim() !== '') {
-                const tasksDiv = document.createElement('div');
-                tasksDiv.style.flex = '1'; // Занимает 50% ширины
-                tasksDiv.style.minWidth = '0'; // Для правильного сжатия содержимого
+            if (rowData.comment && (rowData.comment.text || rowData.comment.tasks)) {
+                const commentDiv = document.createElement('div');
+                commentDiv.style.display = 'flex'; // Располагаем элементы в одной строке
+                commentDiv.style.gap = '10px'; // Добавляем отступ между элементами
+                commentDiv.style.width = '100%'; // Занимает всю доступную ширину
 
-                // Check if tasks matches the special format "[x], [y,z...]" with any whitespace
-                const specialFormatRegex = /^\[\s*(\d+)\s*\],\s*\[\s*([\d\s,]+)\s*\]$/;
-                const match = rowData.comment.tasks.match(specialFormatRegex);
+                // Text comment
+                if (rowData.comment.text && rowData.comment.text.trim() !== '') {
+                    const textDiv = document.createElement('div');
+                    textDiv.style.flex = '1'; // Занимает 50% ширины
+                    textDiv.style.minWidth = '0'; // Для правильного сжатия текста
+                    textDiv.innerHTML = rowData.comment.text;
 
-                if (match) {
-                    const totalColumns = parseInt(match[1]);
-                    // Remove all whitespace and split by commas
-                    const checkedColumns = match[2].replace(/\s/g, '').split(',').map(Number);
-
-                    // Create a table for the special format
-                    const specialTable = document.createElement('table');
-                    specialTable.className = 'comment-table';
-
-                    // Create header row with numbers 1 to totalColumns
-                    const headerRow = document.createElement('tr');
-                    for (let i = 1; i <= totalColumns; i++) {
-                        const th = document.createElement('th');
-                        th.textContent = i;
-                        headerRow.appendChild(th);
-                    }
-                    specialTable.appendChild(headerRow);
-
-                    // Create checkbox row
-                    const checkboxRow = document.createElement('tr');
-                    for (let i = 1; i <= totalColumns; i++) {
-                        const td = document.createElement('td');
-                        const checkbox = document.createElement('input');
-                        checkbox.type = 'checkbox';
-                        checkbox.checked = checkedColumns.includes(i);
-                        checkbox.readOnly = true;
-                        td.appendChild(checkbox);
-                        checkboxRow.appendChild(td);
-                    }
-                    specialTable.appendChild(checkboxRow);
-
-                    tasksDiv.appendChild(specialTable);
-                } else {
-                    // Regular tasks content
-                    tasksDiv.textContent = rowData.comment.tasks;
+                    commentDiv.classList.add('comment');
+                    commentDiv.appendChild(textDiv);
                 }
 
-                commentDiv.appendChild(tasksDiv);
+                // Tasks comment
+                if (rowData.comment.tasks && rowData.comment.tasks.trim() !== '') {
+                    const tasksDiv = document.createElement('div');
+                    tasksDiv.style.flex = '1'; // Занимает 50% ширины
+                    tasksDiv.style.minWidth = '0'; // Для правильного сжатия содержимого
+
+                    // Check if tasks matches the special format "[x], [y,z...]" with any whitespace
+                    const specialFormatRegex = /^\[\s*(\d+)\s*\],\s*\[\s*([\d\s,]+)\s*\]$/;
+                    const match = rowData.comment.tasks.match(specialFormatRegex);
+
+                    if (match) {
+                        const totalColumns = parseInt(match[1]);
+                        // Remove all whitespace and split by commas
+                        const checkedColumns = match[2].replace(/\s/g, '').split(',').map(Number);
+
+                        // Create a table for the special format
+                        const specialTable = document.createElement('table');
+                        specialTable.className = 'comment-table';
+
+                        // Create header row with numbers 1 to totalColumns
+                        const headerRow = document.createElement('tr');
+                        for (let i = 1; i <= totalColumns; i++) {
+                            const th = document.createElement('th');
+                            th.textContent = i;
+                            headerRow.appendChild(th);
+                        }
+                        specialTable.appendChild(headerRow);
+
+                        // Create checkbox row
+                        const checkboxRow = document.createElement('tr');
+                        for (let i = 1; i <= totalColumns; i++) {
+                            const td = document.createElement('td');
+                            const checkbox = document.createElement('input');
+                            checkbox.type = 'checkbox';
+                            checkbox.checked = checkedColumns.includes(i);
+                            checkbox.readOnly = true;
+                            td.appendChild(checkbox);
+                            checkboxRow.appendChild(td);
+                        }
+                        specialTable.appendChild(checkboxRow);
+
+                        tasksDiv.appendChild(specialTable);
+                    } else {
+                        // Regular tasks content
+                        tasksDiv.textContent = rowData.comment.tasks;
+                    }
+                    commentDiv.appendChild(tasksDiv);
+                }
+
+                topicContainer.appendChild(commentDiv);
             }
 
-            topicContainer.appendChild(commentDiv);
+            topicCell.appendChild(topicContainer);
+            row.appendChild(topicCell);
+            row.appendChild(lmsCell);
+
+            // Done checkbox
+            const doneCell = document.createElement('td');
+            doneCell.className = 'checkbox-cell';
+            const doneCheckbox = document.createElement('input');
+            doneCheckbox.type = 'checkbox';
+            doneCheckbox.checked = rowData.done;
+            doneCheckbox.readOnly = true;
+            doneCell.appendChild(doneCheckbox);
+            row.appendChild(doneCell);
+
+            // Score checkbox
+            const scoreCell = document.createElement('td');
+            if (rowData.score) {
+                scoreCell.className = 'checkbox-cell';
+                const scoreCheckbox = document.createElement('input');
+                scoreCheckbox.type = 'checkbox';
+                scoreCheckbox.checked = rowData.score;
+                scoreCheckbox.readOnly = true;
+                scoreCell.appendChild(scoreCheckbox);
+            }
+            row.appendChild(scoreCell);
+
+            // Deadline
+            const deadlineCell = document.createElement('td');
+            deadlineCell.className = 'deadline';
+            deadlineCell.textContent = rowData.deadline;
+            row.appendChild(deadlineCell);
+
+            // Time left
+            const timeLeftCell = document.createElement('td');
+            timeLeftCell.className = 'time-left';
+            row.appendChild(timeLeftCell);
+
+            // Verified checkbox
+            const verifiedCell = document.createElement('td');
+            verifiedCell.className = 'checkbox-cell';
+            verifiedCell.classList.add('verified-cell');
+            const verifiedCheckbox = document.createElement('input');
+            verifiedCheckbox.type = 'checkbox';
+            verifiedCheckbox.checked = rowData.verified;
+            verifiedCheckbox.readOnly = true;
+            verifiedCell.appendChild(verifiedCheckbox);
+            row.appendChild(verifiedCell);
         }
-
-
-        topicCell.appendChild(topicContainer);
-        row.appendChild(topicCell);
-        row.appendChild(lmsCell);
-
-        // Done checkbox
-        const doneCell = document.createElement('td');
-        doneCell.className = 'checkbox-cell';
-        const doneCheckbox = document.createElement('input');
-        doneCheckbox.type = 'checkbox';
-        doneCheckbox.checked = rowData.done;
-        doneCheckbox.readOnly = true;
-        doneCell.appendChild(doneCheckbox);
-        row.appendChild(doneCell);
-
-        // Score checkbox
-        const scoreCell = document.createElement('td');
-        if (rowData.score) {
-            scoreCell.className = 'checkbox-cell';
-            const scoreCheckbox = document.createElement('input');
-            scoreCheckbox.type = 'checkbox';
-            scoreCheckbox.checked = rowData.score;
-            scoreCheckbox.readOnly = true;
-            scoreCell.appendChild(scoreCheckbox);
-        }
-        row.appendChild(scoreCell);
-
-        // Deadline
-        const deadlineCell = document.createElement('td');
-        deadlineCell.className = 'deadline';
-        deadlineCell.textContent = rowData.deadline;
-        row.appendChild(deadlineCell);
-
-        // Time left
-        const timeLeftCell = document.createElement('td');
-        timeLeftCell.className = 'time-left';
-        row.appendChild(timeLeftCell);
-
-        // Verified checkbox
-        const verifiedCell = document.createElement('td');
-        verifiedCell.className = 'checkbox-cell';
-        verifiedCell.classList.add('verified-cell');
-        const verifiedCheckbox = document.createElement('input');
-        verifiedCheckbox.type = 'checkbox';
-        verifiedCheckbox.checked = rowData.verified;
-        verifiedCheckbox.readOnly = true;
-        verifiedCell.appendChild(verifiedCheckbox);
-        row.appendChild(verifiedCell);
 
         tbody.appendChild(row);
     });

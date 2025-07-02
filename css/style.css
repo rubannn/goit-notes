@@ -1,3 +1,9 @@
+:root {
+    --main-text-color: #0366d6;
+    --link-color: #0366d6;
+    --title-color: #0066cc;
+}
+
 table {
     border-collapse: collapse;
     width: 70%;
@@ -23,7 +29,7 @@ th {
 
 a {
     text-decoration: none;
-    color: #0366d6;
+    color: var(--link-color);
 }
 
 a:hover {
@@ -75,7 +81,7 @@ h2::before {
 }
 
 h2:hover {
-    color: #0066cc;
+    color: var(--title-color);
     /* Цвет при наведении (может совпадать со стрелкой) */
 }
 
@@ -86,13 +92,13 @@ h2:hover::before {
 h2.expanded::before {
     /* Стрелка вниз */
     border-width: 8px 5px 0 5px;
-    border-color: #0066cc transparent transparent transparent;
+    border-color: var(--title-color) transparent transparent transparent;
 }
 
 h2.collapsed::before {
     /* Стрелка вправо */
     border-width: 5px 0 5px 8px;
-    border-color: transparent transparent transparent #0066cc;
+    border-color: transparent transparent transparent var(--title-color);
 }
 
 
@@ -146,4 +152,22 @@ table.comment-table th {
     /* Другой цвет для заголовков */
     font-size: 16px;
     font-weight: bold;
+}
+
+.useful-links li {
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--main-text-color);
+}
+
+p:hover {
+    text-decoration: underline;
 }
