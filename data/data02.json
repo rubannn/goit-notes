@@ -58,7 +58,7 @@
             "done": true,
             "score": true,
             "deadline": "03.08.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
@@ -91,7 +91,7 @@
             "done": true,
             "score": false,
             "deadline": "20.07.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
