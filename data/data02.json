@@ -69,7 +69,10 @@
             "score": false,
             "deadline": "10.08.2025",
             "verified": false,
-            "comment": ""
+            "comment": {
+                "text": "переглянути <a href='https://github.com/netkatya/goit-markup-hw-06/'>https://github.com/netkatya/goit-markup-hw-06/</a>",
+                "tasks": ""
+            }
         },
         {
             "topic": "Фінальний проєкт",
