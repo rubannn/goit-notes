@@ -63,7 +63,7 @@ function generateTableFromJSON(data, file, num) {
             linkList.className = 'useful-links';
             rowData.useful_links.forEach(linkData => {
                 const linkElement = document.createElement('a');
-                linkElement.href = linkData.link;
+                linkElement.href = linkData.url;
                 linkElement.textContent = linkData.text;
                 linkElement.target = '_blank'; // Open in new tab
                 linkElement.rel = 'noopener noreferrer'; // Security best practice
