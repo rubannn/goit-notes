@@ -137,7 +137,11 @@
                 {
                     "text": "Emmet комбінації",
                     "url": "https://docs.emmet.io/cheat-sheet/"
-                }
+                },                
+                {
+                    "text": "Responsive website design checker",
+                    "url": "https://designmodo.com/responsive-test/"
+                },                
             ],
             "comment": ""
         }
