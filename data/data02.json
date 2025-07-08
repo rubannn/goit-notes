@@ -101,10 +101,10 @@
             "topic": "Наукова публікація 2",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/20712526/20713434/homework",
-            "done": false,
+            "done": true,
             "score": false,
             "deadline": "10.08.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
