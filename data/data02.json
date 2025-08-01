@@ -111,10 +111,10 @@
             "topic": "Фінальне тестування",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/19646173/19656859/training",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "10.08.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
