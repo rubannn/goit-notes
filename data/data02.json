@@ -150,6 +150,22 @@
                 {
                     "text": "Responsive website design checker",
                     "url": "https://designmodo.com/responsive-test/"
+                },
+                {
+                    "text": "CSS Flexbox",
+                    "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+                },
+                {
+                    "text": "CSS Grid",
+                    "url": "https://css-tricks.com/snippets/css/complete-guide-grid/"
+                },
+                {
+                    "text": "iziToast. Elegant, responsive and lightweight notification plugin with no dependencies.",
+                    "url": "https://marcelodolza.github.io/iziToast/"
+                },
+                {
+                    "text": "IziModal. Elegant, responsive, flexible and lightweight modal plugin with jQuery.",
+                    "url": "https://marcelodolza.github.io/iziModal/"
                 }
             ],
             "comment": ""
