@@ -65,10 +65,10 @@
             "topic": "Тема 6. Адаптивний дизайн",
             "link": "https://github.com/rubannn/goit-markup-hw-06",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/20712526/20713364/homework",
-            "done": false,
+            "done": true,
             "score": false,
             "deadline": "10.08.2025",
-            "verified": false,
+            "verified": true,
             "comment": {
                 "text": "переглянути <a href='https://github.com/netkatya/goit-markup-hw-06/'>https://github.com/netkatya/goit-markup-hw-06/</a>",
                 "tasks": ""
