@@ -2,6 +2,7 @@
     --main-text-color: #0366d6;
     --link-color: #0366d6;
     --title-color: #0066cc;
+    --font-size: 16px;
 }
 
 table {
@@ -110,9 +111,9 @@ h2.collapsed::before {
 
 
 .comment {
-    background-color: #ffc0cb;
+    background-color: #C0EAFF;
     padding: 10px;
-    margin: 4px;
+    margin: 4px 40px;
     border-radius: 3px;
     font-size: 14px;
     display: flex;
@@ -152,18 +153,18 @@ h2.collapsed::before {
 
 .comment-tasks-table th,
 .comment-tasks-table td {
-    border: 1px solid #c0c0c0;
+    border: 1px solid #836fff;
     /* Границы ячеек */
     padding: 0;
     /* Убираем внутренние отступы */
     text-align: center;
-    background-color: #ffe6ea;
+    background-color: #b9d3ee;
     border-radius: 4px;
     /* Скругление углов ячеек */
 }
 
 .comment-tasks-table th {
-    background-color: #ffe6ea;
+    background-color: #b9d3ee;
     /* Другой цвет для заголовков */
     font-size: 16px;
     font-weight: bold;
@@ -185,4 +186,14 @@ p {
 
 p:hover {
     text-decoration: underline;
+}
+
+
+p.topic-text:hover {
+    text-decoration: none;
+}
+
+.topic-text {
+    font-size: var(--font-size);
+    font-weight: normal;
 }

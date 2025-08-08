@@ -83,12 +83,19 @@ function generateTableFromJSON(data, file, num) {
       row.appendChild(topicCell);
     } else {
       // Add link
-      const link = document.createElement("a");
-      link.href = rowData.link;
-      link.textContent = rowData.topic;
-      link.target = "_blank"; // Open in new tab
-      link.rel = "noopener noreferrer"; // Security best practice
-      topicContainer.appendChild(link);
+      if (rowData.link) {
+        const link = document.createElement("a");
+        link.href = rowData.link;
+        link.textContent = rowData.topic;
+        link.target = "_blank"; // Open in new tab
+        link.rel = "noopener noreferrer"; // Security best practice
+        topicContainer.appendChild(link);
+      } else {
+        const topic = document.createElement("p");
+        topic.className = "topic-text";
+        topic.textContent = rowData.topic;
+        topicContainer.appendChild(topic);
+      }
 
       // Add LMS
       const lmsCell = document.createElement("td");
