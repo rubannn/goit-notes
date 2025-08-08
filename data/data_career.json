@@ -1,0 +1,125 @@
+{
+    "title": "Career Strategies and Soft Skills for IT Professionals",
+    "collapse": true,
+    "headers": [
+        "Git Repository",
+        "LMS",
+        "Finished",
+        "Scores",
+        "Deadline",
+        "Countdown",
+        "Inspected"
+    ],
+    "rows": [
+        {
+            "topic": "Воркшоп. Кар'єрне планування та ціннісні орієнтації в кар'єрі",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/17003531/17003669/homework",
+            "done": true,
+            "score": false,
+            "deadline": "06.06.2025",
+            "verified": true,
+            "comment": ""
+        },
+        {
+            "topic": "Воркшоп. Підвищення успішності на ринку праці: Linkedin та Djinni",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/17003531/21431460/homework",
+            "done": false,
+            "score": false,
+            "deadline": "05.09.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Воркшоп. Дослідження ринку праці. Підбір каналів для пошуку роботи",
+            "link": "",
+            "lms_link": "",
+            "done": false,
+            "score": false,
+            "deadline": "10.10.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Воркшоп. Стратегії побудови професійного резюме для IT-спеціалістів",
+            "link": "",
+            "lms_link": "",
+            "done": false,
+            "score": false,
+            "deadline": "22.11.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Воркшоп. Етапи відбору в компанію. HR-співбесіда",
+            "link": "",
+            "lms_link": "",
+            "done": false,
+            "score": false,
+            "deadline": "13.12.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Воркшоп. SE Підготовка до Test task: Ключ до успіху в ІТ",
+            "link": "",
+            "lms_link": "",
+            "done": false,
+            "score": false,
+            "deadline": "02.02.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Воркшоп. Підвищення в компанії та індивідуальний план розвитку",
+            "link": "",
+            "lms_link": "",
+            "done": false,
+            "score": false,
+            "deadline": "24.04.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "-",
+            "link": "",
+            "lms_link": "",
+            "done": false,
+            "score": false,
+            "deadline": "05.09.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Ресерч інформації про компанію",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/17003531/38556663/homework",
+            "done": false,
+            "score": false,
+            "deadline": "01.01.1900",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Корисні посилання",
+            "link": "",
+            "lms_link": "",
+            "done": false,
+            "score": false,
+            "deadline": "01.01.1900",
+            "verified": false,
+            "useful_links": [
+                {
+                    "text": "Profile LinkedIn",
+                    "url": "https://www.linkedin.com/in/nikolay-ruban-49223667/"
+                },
+                {
+                    "text": "Profile Djinni",
+                    "url": "https://djinni.co/q/a394c1ece8/"
+                }
+            ],
+            "comment": ""
+        }
+    ]
+}

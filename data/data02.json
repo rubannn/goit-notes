@@ -123,7 +123,7 @@
             "lms_link": "",
             "done": false,
             "score": false,
-            "deadline": "20.07.2025",
+            "deadline": "01.01.1900",
             "verified": false,
             "useful_links": [
                 {
@@ -137,7 +137,7 @@
                 {
                     "text": "Emmet комбінації",
                     "url": "https://docs.emmet.io/cheat-sheet/"
-                },                
+                },
                 {
                     "text": "Responsive website design checker",
                     "url": "https://designmodo.com/responsive-test/"
