@@ -83,7 +83,16 @@
             "deadline": "17.08.2025",
             "verified": false,
             "comment": {
-                "text": "переглянути <a href='https://github.com/SergeyKorobka/demo-vite/blob/main/.github/workflows/deploy.yml'>test-vite-repo</a>",
+                "text": "переглянути",
+                "urls": [
+                    "https://github.com/SergeyKorobka/demo-vite/blob/main/.github/workflows/deploy.yml",
+                    "https://github.com/ITStupak/goit-js-hw-09",
+                    "https://github.com/EuJinnLucaShow/cats-api",
+                    "https://github.com/elentr/goit-js-hw-09",
+                    "https://github.com/AlexNovickiy/goit-markup-hw-vite",
+                    "https://github.com/lovin4ik/goiteens-4-semester-vite",
+                    "https://github.com/vmgurnak/goit-js-hw-12-vite"
+                ],
                 "tasks": ""
             }
         },

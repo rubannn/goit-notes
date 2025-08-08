@@ -119,6 +119,22 @@ function generateTableFromJSON(data, file, num) {
 
           textDiv.classList.add("comment-text");
           textDiv.innerHTML = rowData.comment.text;
+
+          if (rowData.comment.urls && rowData.comment.urls.length > 0) {
+            const urlList = document.createElement("ol");
+            rowData.comment.urls.forEach((url) => {
+              const urlItem = document.createElement("li");
+              const urlLink = document.createElement("a");
+              urlLink.href = url;
+              urlLink.textContent = url;
+              urlLink.target = "_blank"; // Open in new tab
+              urlLink.rel = "noopener noreferrer"; // Security best practice
+              urlItem.appendChild(urlLink);
+              urlList.appendChild(urlItem);
+            });
+            textDiv.appendChild(urlList);
+          }
+
           commentDiv.appendChild(textDiv);
         }
 
