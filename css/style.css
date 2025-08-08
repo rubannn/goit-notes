@@ -18,7 +18,7 @@ tr:hover {
 th,
 td {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 10px;
     text-align: left;
 }
 
@@ -101,18 +101,33 @@ h2.collapsed::before {
     border-color: transparent transparent transparent var(--title-color);
 }
 
+.topic-container {
+    /* margin: 20px auto; */
+    width: auto;
+    /* border: 1px solid #ddd;
+    border-radius: 5px; */
+}
 
 
 .comment {
     background-color: #ffc0cb;
-    padding: 4px;
-    margin-top: 4px;
+    padding: 10px;
+    margin: 4px;
     border-radius: 3px;
     font-size: 14px;
+    display: flex;
+    gap: 10px;
+    width: auto;
+}
+
+.comment-text,
+.comment-tasks {
+    flex: 1;
+    min-width: 0;
 }
 
 
-table.comment-table {
+.comment-tasks-table {
     width: auto;
     /* Автоматическая ширина по содержимому */
     margin: 0 0 0 auto;
@@ -125,18 +140,18 @@ table.comment-table {
     /* Убираем внешнюю рамку */
 }
 
-table.comment-table th {
+.comment-tasks-table th {
     width: 40px;
     height: 40px;
 }
 
-table.comment-table td {
+.comment-tasks-table td {
     width: 40px;
     height: 40px;
 }
 
-table.comment-table th,
-table.comment-table td {
+.comment-tasks-table th,
+.comment-tasks-table td {
     border: 1px solid #c0c0c0;
     /* Границы ячеек */
     padding: 0;
@@ -147,7 +162,7 @@ table.comment-table td {
     /* Скругление углов ячеек */
 }
 
-table.comment-table th {
+.comment-tasks-table th {
     background-color: #ffe6ea;
     /* Другой цвет для заголовков */
     font-size: 16px;
