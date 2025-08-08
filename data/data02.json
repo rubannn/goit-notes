@@ -110,11 +110,11 @@
         {
             "topic": "Фінальне тестування",
             "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/19646173/19656859/training",
-            "done": false,
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/20712526/20713800/training",
+            "done": true,
             "score": true,
             "deadline": "10.08.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
@@ -137,6 +137,10 @@
                 {
                     "text": "Emmet комбінації",
                     "url": "https://docs.emmet.io/cheat-sheet/"
+                },                
+                {
+                    "text": "Responsive website design checker",
+                    "url": "https://designmodo.com/responsive-test/"
                 }
             ],
             "comment": ""
