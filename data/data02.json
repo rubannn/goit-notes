@@ -158,6 +158,10 @@
             "verified": false,
             "useful_links": [
                 {
+                    "text": "IcoMoon.io",
+                    "url": "https://icomoon.io/"
+                },
+                {
                     "text": "Nu Html Checker",
                     "url": "https://validator.w3.org/nu/"
                 },
