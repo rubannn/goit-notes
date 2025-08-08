@@ -193,7 +193,8 @@ p.topic-text:hover {
     text-decoration: none;
 }
 
-.topic-text {
+.topic-tex,
+.comment-text-content {
     font-size: var(--font-size);
     font-weight: normal;
 }

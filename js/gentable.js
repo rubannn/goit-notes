@@ -118,7 +118,42 @@ function generateTableFromJSON(data, file, num) {
           const textDiv = document.createElement("div");
 
           textDiv.classList.add("comment-text");
-          textDiv.innerHTML = rowData.comment.text;
+
+          // Check if there are instructions in the comment
+          if (
+            rowData.comment.instructions &&
+            rowData.comment.instructions.length > 0
+          ) {
+            if (
+              rowData.comment.instructions_text &&
+              rowData.comment.instructions_text.trim() !== ""
+            ) {
+              txt = document.createElement("p");
+              txt.classList.add("comment-text-content");
+              txt.textContent = rowData.comment.instructions_text;
+              textDiv.appendChild(txt);
+            }
+
+            const instructionsList = document.createElement("ul");
+            rowData.comment.instructions.forEach((instruction) => {
+              const instructionItem = document.createElement("li");
+              const instructionLink = document.createElement("a");
+
+              instructionLink.href = instruction.url;
+              instructionLink.textContent = instruction.text;
+              instructionLink.target = "_blank"; // Open in new tab
+              instructionLink.rel = "noopener noreferrer"; // Security best practice
+              instructionItem.appendChild(instructionLink);
+              instructionsList.appendChild(instructionItem);
+            });
+
+            textDiv.appendChild(instructionsList);
+          }
+
+          txt = document.createElement("p");
+          txt.classList.add("comment-text-content");
+          txt.textContent = rowData.comment.text;
+          textDiv.appendChild(txt);
 
           if (rowData.comment.urls && rowData.comment.urls.length > 0) {
             const urlList = document.createElement("ol");

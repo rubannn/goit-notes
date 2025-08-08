@@ -70,7 +70,10 @@
             "deadline": "10.08.2025",
             "verified": true,
             "comment": {
-                "text": "переглянути <a href='https://github.com/netkatya/goit-markup-hw-06/'>https://github.com/netkatya/goit-markup-hw-06/</a>",
+                "text": "переглянути",
+                "urls": [
+                    "https://github.com/netkatya/goit-markup-hw-06/"
+                ],
                 "tasks": ""
             }
         },
@@ -83,6 +86,25 @@
             "deadline": "17.08.2025",
             "verified": false,
             "comment": {
+                "instructions_text": "Інструкції",
+                "instructions": [
+                    {
+                        "text": "Опис проекту та критерiїв в LMS",
+                        "url": "https://textbook.edu.goit.global/lms-neoversity-homework/uk/docs/project/hw-01/"
+                    },
+                    {
+                        "text": "ТЗ",
+                        "url": "https://docs.google.com/spreadsheets/d/1JRDqMMRgQ6RbukIpl-18NuXQFMjm8HqGAQwZ553ykHU/edit?gid=0#gid=0"
+                    },
+                    {
+                        "text": "Макет",
+                        "url": "https://www.figma.com/file/MrdZUmIfeT1bKd8u5GWLRt/English-Excellence-2.0?type=design&node-id=0%3A1&mode=design&t=ABsxLoZAXhbRJT6P-1"
+                    },
+                    {
+                        "text": "Пiдготовка до командного проєкту",
+                        "url": "https://docs.google.com/presentation/d/1Os-inDRvhyZPdDR6bvJT6CjLYk9wUNn_/edit#slide=id.p1"
+                    }
+                ],
                 "text": "переглянути",
                 "urls": [
                     "https://github.com/SergeyKorobka/demo-vite/blob/main/.github/workflows/deploy.yml",
