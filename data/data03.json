@@ -1,6 +1,6 @@
 {
     "title": "JavaScript Fundamentals: From Basics to Advanced Concepts",
-    "collapse": true,
+    "collapse": false,
     "headers": [
         "Git Repository",
         "LMS",
@@ -12,7 +12,7 @@
     ],
     "rows": [
         {
-            "topic": "Тема 1. Змінні та типи. Основи функцій",
+            "topic": "1. Змінні та типи. Основи функцій",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243867/homework",
             "done": false,
@@ -22,7 +22,7 @@
             "comment": ""
         },
         {
-            "topic": "Тема 2. Розгалуження та цикли",
+            "topic": "2. Розгалуження та цикли",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243868/homework",
             "done": false,
@@ -32,7 +32,7 @@
             "comment": ""
         },
         {
-            "topic": "Тема 4. Функції",
+            "topic": "3. Функції",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243872/homework",
             "done": false,
@@ -42,7 +42,7 @@
             "comment": ""
         },
         {
-            "topic": "Тема 6. Масиви та методи об'єкта",
+            "topic": "4. Масиви та методи об'єкта",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243876/homework",
             "done": false,
@@ -52,7 +52,7 @@
             "comment": ""
         },
         {
-            "topic": "Тема 8. Перебираючі методи масивів. Частина 2",
+            "topic": "5. Перебираючі методи масивів",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243882/homework",
             "done": false,
@@ -62,32 +62,32 @@
             "comment": ""
         },                
         {
-            "topic": "Тема 10. ООП. Класи",
+            "topic": "6. ООП. Класи",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243888/homework",
             "done": false,
-            "score": false,
+            "score": true,
             "deadline": "21.09.2025",
             "verified": false,
             "comment": ""
         },
         {
-            "topic": "Тема 12. Події",
+            "topic": "7. Події",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243891/homework",
             "done": false,
-            "score": false,
+            "score": true,
             "deadline": "28.09.2025",
             "verified": false,
             "comment": ""
         },
         {
-            "topic": "Тема 14. Деструктуризація",
+            "topic": "8. Деструктуризація - фінал",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243894/homework",
             "done": false,
-            "score": false,
-            "deadline": "26.05.2025",
+            "score": true,
+            "deadline": "05.10.2025",
             "verified": false,
             "comment": ""
         },
