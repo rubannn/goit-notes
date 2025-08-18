@@ -81,10 +81,10 @@
             "topic": "Фінальний проєкт",
             "link": "https://github.com/rubannn/goit-markup-final",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/20712526/20713447/training?blockId=20713708",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "17.08.2025",
-            "verified": false,
+            "verified": true,
             "comment": {
                 "instructions_text": "Інструкції",
                 "instructions": [
@@ -111,8 +111,6 @@
                 ],
                 "text": "переглянути",
                 "urls": [
-                    "https://github.com/SergeyKorobka/demo-vite/blob/main/.github/workflows/deploy.yml",
-                    "https://github.com/ITStupak/goit-js-hw-09",
                     "https://github.com/EuJinnLucaShow/cats-api",
                     "https://github.com/elentr/goit-js-hw-09",
                     "https://github.com/AlexNovickiy/goit-markup-hw-vite",
