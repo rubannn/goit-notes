@@ -12,14 +12,104 @@
     ],
     "rows": [
         {
-            "topic": "Тема 23. Основні структури даних",
-            "link": "https://github.com/rubannn/goit-algo-hw-02",
-            "lms_link": "",
-            "done": true,
+            "topic": "Тема 1. Змінні та типи. Основи функцій",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243867/homework",
+            "done": false,
+            "score": false,
+            "deadline": "24.08.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 2. Розгалуження та цикли",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243868/homework",
+            "done": false,
+            "score": false,
+            "deadline": "24.08.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 4. Функції",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243872/homework",
+            "done": false,
+            "score": false,
+            "deadline": "31.08.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 6. Масиви та методи об'єкта",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243876/homework",
+            "done": false,
+            "score": false,
+            "deadline": "07.09.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 8. Перебираючі методи масивів. Частина 2",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243882/homework",
+            "done": false,
+            "score": false,
+            "deadline": "14.09.2025",
+            "verified": false,
+            "comment": ""
+        },                
+        {
+            "topic": "Тема 10. ООП. Класи",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243888/homework",
+            "done": false,
+            "score": false,
+            "deadline": "21.09.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 12. Події",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243891/homework",
+            "done": false,
+            "score": false,
+            "deadline": "28.09.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 14. Деструктуризація",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243894/homework",
+            "done": false,
             "score": false,
             "deadline": "26.05.2025",
-            "verified": true,
+            "verified": false,
             "comment": ""
-        }
+        },
+        {
+            "topic": "Наукова публiкацiя 1",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243889/homework",
+            "done": false,
+            "score": false,
+            "deadline": "21.09.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Наукова публiкацiя 2",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243895/homework",
+            "done": false,
+            "score": false,
+            "deadline": "05.10.2025",
+            "verified": false,
+            "comment": ""
+        }  
     ]
 }
