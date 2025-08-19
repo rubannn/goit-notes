@@ -79,7 +79,18 @@
             "score": true,
             "deadline": "28.09.2025",
             "verified": false,
-            "comment": ""
+            "comment": {
+                "instructions_text": "Інструкції",
+                "instructions": [
+                    {
+                        "text": "Макет",
+                        "url": "https: //www.figma.com/design/d7oraVHzulShV78xi5yptW/HW-JavaScript--Copy-?node-id=0-1&p=f&t=g0S1HaX2ckFRF5qX-0"
+                    }
+                ],
+                "text": "",
+                "urls": [],
+                "tasks": "[6], [1]"
+            }
         },
         {
             "topic": "8. Деструктуризація - фінал",
