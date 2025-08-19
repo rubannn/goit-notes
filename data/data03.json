@@ -33,7 +33,7 @@
         },
         {
             "topic": "3. Функції",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-js-hw-03",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243872/homework",
             "done": false,
             "score": false,
@@ -43,7 +43,7 @@
         },
         {
             "topic": "4. Масиви та методи об'єкта",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-js-hw-04",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243876/homework",
             "done": false,
             "score": false,
@@ -53,7 +53,7 @@
         },
         {
             "topic": "5. Перебираючі методи масивів",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-js-hw-05",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243882/homework",
             "done": false,
             "score": false,
@@ -63,7 +63,7 @@
         },
         {
             "topic": "6. ООП. Класи",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-js-hw-06",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243888/homework",
             "done": false,
             "score": true,
