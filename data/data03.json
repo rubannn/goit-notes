@@ -88,7 +88,11 @@
                     }
                 ],
                 "text": "",
-                "urls": [],
+                "urls": ["https://github.com/DmitBykanov/goit-js-hw-07", 
+                    "https://github.com/Makcnm2012/goit-js-hw-07", 
+                    "https://viktoria-ep.github.io/goit-js-hw-07/task-2.html",
+                    "https://github.com/EvgBckAccount/goit-js-hw-07"
+                ],
                 "tasks": "[6], [1]"
             }
         },
@@ -100,7 +104,7 @@
             "score": true,
             "deadline": "05.10.2025",
             "verified": false,
-            "comment": ""
+            "comment": "https://k4t3ryn4.github.io/goit-js-hw-08/"
         },
         {
             "topic": "Наукова публiкацiя 1",
