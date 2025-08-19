@@ -13,9 +13,9 @@
     "rows": [
         {
             "topic": "1. Змінні та типи. Основи функцій",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-js-hw-01",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243867/homework",
-            "done": false,
+            "done": true,
             "score": false,
             "deadline": "24.08.2025",
             "verified": false,
@@ -23,9 +23,9 @@
         },
         {
             "topic": "2. Розгалуження та цикли",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-js-hw-02",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243868/homework",
-            "done": false,
+            "done": true,
             "score": false,
             "deadline": "24.08.2025",
             "verified": false,
@@ -60,7 +60,7 @@
             "deadline": "14.09.2025",
             "verified": false,
             "comment": ""
-        },                
+        },
         {
             "topic": "6. ООП. Класи",
             "link": "",
@@ -110,6 +110,6 @@
             "deadline": "05.10.2025",
             "verified": false,
             "comment": ""
-        }  
+        }
     ]
 }
