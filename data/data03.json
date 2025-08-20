@@ -18,7 +18,7 @@
             "done": true,
             "score": false,
             "deadline": "24.08.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
@@ -35,20 +35,20 @@
             "topic": "3. Функції",
             "link": "https://github.com/rubannn/goit-js-hw-03",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243872/homework",
-            "done": false,
+            "done": true,
             "score": false,
             "deadline": "31.08.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
             "topic": "4. Масиви та методи об'єкта",
             "link": "https://github.com/rubannn/goit-js-hw-04",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243876/homework",
-            "done": false,
+            "done": true,
             "score": false,
             "deadline": "07.09.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
@@ -88,9 +88,9 @@
                     }
                 ],
                 "text": "",
-                "urls": ["https://github.com/netkatya/goit-js-hw-07", 
-                    "https://github.com/DmitBykanov/goit-js-hw-07", 
-                    "https://github.com/Makcnm2012/goit-js-hw-07", 
+                "urls": ["https://github.com/netkatya/goit-js-hw-07",
+                    "https://github.com/DmitBykanov/goit-js-hw-07",
+                    "https://github.com/Makcnm2012/goit-js-hw-07",
                     "https://viktoria-ep.github.io/goit-js-hw-07/task-2.html",
                     "https://github.com/EvgBckAccount/goit-js-hw-07"
                 ],
