@@ -28,7 +28,7 @@
             "done": true,
             "score": false,
             "deadline": "24.08.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
@@ -55,20 +55,20 @@
             "topic": "5. Перебираючі методи масивів",
             "link": "https://github.com/rubannn/goit-js-hw-05",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243882/homework",
-            "done": false,
+            "done": true,
             "score": false,
             "deadline": "14.09.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
             "topic": "6. ООП. Класи",
             "link": "https://github.com/rubannn/goit-js-hw-06",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243888/homework",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "21.09.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
@@ -87,8 +87,9 @@
                         "url": "https: //www.figma.com/design/d7oraVHzulShV78xi5yptW/HW-JavaScript--Copy-?node-id=0-1&p=f&t=g0S1HaX2ckFRF5qX-0"
                     }
                 ],
-                "text": "",
-                "urls": ["https://github.com/netkatya/goit-js-hw-07",
+                "text": "переглянути",
+                "urls": [
+                    "https://github.com/netkatya/goit-js-hw-07",
                     "https://github.com/DmitBykanov/goit-js-hw-07",
                     "https://github.com/Makcnm2012/goit-js-hw-07",
                     "https://viktoria-ep.github.io/goit-js-hw-07/task-2.html",
