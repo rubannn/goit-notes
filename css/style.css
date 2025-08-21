@@ -63,10 +63,9 @@ input[type="checkbox"] {
 
 h2 {
     margin-top: 20px;
-    margin-left: 10%;
     cursor: pointer;
     position: relative;
-    padding-left: 20px;
+    display: inline-block;
 }
 
 h2::before {
@@ -77,8 +76,6 @@ h2::before {
     transform: translateY(-50%);
     width: 0;
     height: 0;
-    border-style: solid;
-    transition: all 0.3s ease;
 }
 
 h2:hover {
@@ -88,18 +85,6 @@ h2:hover {
 
 h2:hover::before {
     opacity: 0.8;
-}
-
-h2.expanded::before {
-    /* Стрелка вниз */
-    border-width: 8px 5px 0 5px;
-    border-color: var(--title-color) transparent transparent transparent;
-}
-
-h2.collapsed::before {
-    /* Стрелка вправо */
-    border-width: 5px 0 5px 8px;
-    border-color: transparent transparent transparent var(--title-color);
 }
 
 .topic-container {
@@ -119,6 +104,24 @@ h2.collapsed::before {
     display: flex;
     gap: 10px;
     width: auto;
+
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease, max-height 0.3s ease, padding 0.3s ease, margin 0.3s ease;
+}
+
+.comment[is-open="true"] {
+    transform: scaleY(1);
+    opacity: 1;
+    max-height: 500px;
+}
+
+.comment[is-open="false"] {
+    opacity: 0;
+    max-height: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .comment-text,
@@ -197,4 +200,25 @@ p.topic-text:hover {
 .comment-text-content {
     font-size: var(--font-size);
     font-weight: normal;
+}
+
+.title-icon,
+.comment-icon {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin-left: 15px;
+    transform: rotate(90deg);
+    transition: transform 0.3s ease;
+}
+
+.title-icon:has(+ h2.expanded),
+.comment-icon:has(+ .comment[is-open="true"]) {
+    transform: rotate(180deg);
+}
+
+.title-icon {
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10px;
 }

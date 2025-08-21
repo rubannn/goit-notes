@@ -5,10 +5,19 @@ function generateTableFromJSON(data, file, num) {
   const newblock = document.createElement("div");
   newblock.className = file.replace(".json", "");
 
+  const btn = document.createElement("img");
+  btn.className = "title-icon";
+  btn.src = "../ico/resize.png";
+
   const title = document.createElement("h2");
   title.textContent = num + ". " + data.title;
   // Add cursor pointer style to the title
   title.style.cursor = "pointer";
+  if (data.collapse) {
+    title.classList.add("collapsed");
+  } else {
+    title.classList.add("expanded");
+  }
 
   // Create table element
   const table = document.createElement("table");
@@ -97,6 +106,32 @@ function generateTableFromJSON(data, file, num) {
         topicContainer.appendChild(topic);
       }
 
+      // Add comment icon if there are comments
+      if (
+        rowData.comment.instructions_text ||
+        rowData.comment.instructions ||
+        rowData.comment.text ||
+        rowData.comment.urls ||
+        rowData.comment.tasks
+      ) {
+        const btn = document.createElement("img");
+        btn.className = "comment-icon";
+        btn.alt = "Comment";
+        btn.src = "../ico/resize.png";
+
+        // Add click event listener to toggle comment visibility
+        btn.addEventListener("click", function () {
+          const commentDiv = this.nextElementSibling;
+          if (commentDiv && commentDiv.classList.contains("comment")) {
+            const isOpen = commentDiv.getAttribute("is-open") === "true";
+            commentDiv.setAttribute("is-open", !isOpen);
+            // commentDiv.style.display = isOpen ? "none" : "block";
+          }
+        });
+
+        topicContainer.appendChild(btn);
+      }
+
       // Add LMS
       const lmsCell = document.createElement("td");
       lmsCell.className = "lms-cell";
@@ -112,6 +147,7 @@ function generateTableFromJSON(data, file, num) {
       if (rowData.comment && (rowData.comment.text || rowData.comment.tasks)) {
         const commentDiv = document.createElement("div");
         commentDiv.classList.add("comment");
+        commentDiv.setAttribute("is-open", false);
 
         // Comment text
         if (rowData.comment.text && rowData.comment.text.trim() !== "") {
@@ -282,6 +318,7 @@ function generateTableFromJSON(data, file, num) {
 
   table.appendChild(tbody);
 
+  newblock.appendChild(btn);
   newblock.appendChild(title);
   newblock.appendChild(table);
   container.appendChild(newblock);
