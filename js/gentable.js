@@ -125,7 +125,6 @@ function generateTableFromJSON(data, file, num) {
           if (commentDiv && commentDiv.classList.contains("comment")) {
             const isOpen = commentDiv.getAttribute("is-open") === "true";
             commentDiv.setAttribute("is-open", !isOpen);
-            // commentDiv.style.display = isOpen ? "none" : "block";
           }
         });
 
