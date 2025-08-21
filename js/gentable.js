@@ -117,7 +117,7 @@ function generateTableFromJSON(data, file, num) {
         const btn = document.createElement("img");
         btn.className = "comment-icon";
         btn.alt = "Comment";
-        btn.src = "../ico/resize.png";
+        btn.src = "./ico/resize.png";
 
         // Add click event listener to toggle comment visibility
         btn.addEventListener("click", function () {
