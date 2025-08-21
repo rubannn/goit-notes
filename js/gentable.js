@@ -7,7 +7,7 @@ function generateTableFromJSON(data, file, num) {
 
   const btn = document.createElement("img");
   btn.className = "title-icon";
-  btn.src = "../ico/resize.png";
+  btn.src = "./ico/resize.png";
 
   const title = document.createElement("h2");
   title.textContent = num + ". " + data.title;
