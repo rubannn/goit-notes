@@ -102,10 +102,10 @@
             "topic": "8. Деструктуризація - фінал",
             "link": "https://github.com/rubannn/goit-js-hw-08",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243894/homework",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "05.10.2025",
-            "verified": false,
+            "verified": true,
             "comment": "https://k4t3ryn4.github.io/goit-js-hw-08/"
         },
         {
