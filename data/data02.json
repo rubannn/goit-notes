@@ -107,16 +107,16 @@
                     {
                         "text": "Для початку...",
                         "url": "https://rubannn.github.io/goit-tmp/"
-                    }                    
+                    }
                 ],
                 "text": "переглянути",
                 "urls": [
+                    "https://github.com/ViktorSvertoka/english-excellence/",
                     "https://github.com/EuJinnLucaShow/cats-api",
                     "https://github.com/elentr/goit-js-hw-09",
                     "https://github.com/AlexNovickiy/goit-markup-hw-vite",
                     "https://github.com/lovin4ik/goiteens-4-semester-vite",
-                    "https://github.com/vmgurnak/goit-js-hw-12-vite",
-                    "https://github.com/ViktorSvertoka/english-excellence/"
+                    "https://github.com/vmgurnak/goit-js-hw-12-vite"
                 ],
                 "tasks": ""
             }
