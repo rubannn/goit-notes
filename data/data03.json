@@ -112,10 +112,10 @@
             "topic": "Наукова публiкацiя 1",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243889/homework",
-            "done": false,
+            "done": true,
             "score": false,
             "deadline": "21.09.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
