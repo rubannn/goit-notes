@@ -1,0 +1,45 @@
+{
+    "title": "Start in АІ",
+    "collapse": true,
+    "headers": [
+        "Git Repository",
+        "LMS",
+        "Finished",
+        "Scores",
+        "Deadline",
+        "Countdown",
+        "Inspected"
+    ],
+    "rows": [
+        {
+            "topic": "1. Основи ШІ та промпт-інжинірінгу",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/43612297/43815238/43815240/homework",
+            "done": true,
+            "score": false,
+            "deadline": "17.08.2025",
+            "verified": true,
+            "comment": ""
+        },
+        {
+            "topic": "2. ШІ для контенту та візуалізації",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/43612297/43815238/43815245/homework",
+            "done": true,
+            "score": false,
+            "deadline": "24.08.2025",
+            "verified": true,
+            "comment": ""
+        },
+        {
+            "topic": "3. Створення першого проєкту за допомогою ШІ",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/43612297/43815238/43815255/homework",
+            "done": false,
+            "score": false,
+            "deadline": "31.08.2025",
+            "verified": false,
+            "comment": ""
+        }
+    ]
+}
