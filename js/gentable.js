@@ -3,7 +3,8 @@ function generateTableFromJSON(data, file, num) {
   const container = document.getElementById("table-container");
 
   const newblock = document.createElement("div");
-  newblock.className = file.replace(".json", "");
+  // newblock.className = file.replace(".json", "");
+  newblock.id = file.replace(".json", "");
 
   const btn = document.createElement("img");
   btn.className = "title-icon";
@@ -399,6 +400,114 @@ function initializeTimeLeft() {
   setInterval(updateTimeLeft, 60000);
 }
 
+// Функция для генерации отдельной таблицы с просроченными или близкими дедлайнами
+function generateDeadlineSummary(allData) {
+  const container = document.getElementById("table-container");
+
+  // Создаём блок
+  const summaryBlock = document.createElement("div");
+  summaryBlock.className = "deadline-summary";
+
+  const title = document.createElement("h2");
+  title.textContent = "⚠️ Urgent tasks (past or up to 7 days)";
+  title.classList.add("expanded");
+
+  const btn = document.createElement("img");
+  btn.className = "title-icon";
+  btn.src = "./ico/resize.png";
+
+  summaryBlock.appendChild(btn);
+  summaryBlock.appendChild(title);
+
+  // Таблица
+  const table = document.createElement("table");
+  const thead = document.createElement("thead");
+  const headerRow = document.createElement("tr");
+  ["File", "Topic", "Deadline", "	Countdown"].forEach((h) => {
+    const th = document.createElement("th");
+    th.textContent = h;
+    headerRow.appendChild(th);
+  });
+  thead.appendChild(headerRow);
+  table.appendChild(thead);
+
+  const tbody = document.createElement("tbody");
+
+  const now = new Date();
+  let urgentTasks = [];
+
+  allData.forEach(({ file, data }) => {
+    data.rows.forEach((rowData) => {
+      if (!rowData.deadline) return;
+      if (rowData.verified) return; // пропускаем проверенные задачи
+      if (rowData.deadline === "01.01.1900") return; // игнорируем фиктивные даты
+
+      const dateParts = rowData.deadline.split(".");
+      if (dateParts.length !== 3) return;
+      const deadlineDate = new Date(
+        dateParts[2],
+        dateParts[1] - 1,
+        dateParts[0]
+      );
+      deadlineDate.setHours(23, 59, 59, 999);
+
+      const diffMs = deadlineDate - now;
+      const diffDays = Math.floor(diffMs / (1000 * 3600 * 24));
+
+      if (diffDays < 0 || diffDays <= 7) {
+        urgentTasks.push({ file, rowData, deadlineDate, diffMs, diffDays });
+      }
+    });
+  });
+
+  // Сортировка: сначала просроченные, потом по ближайшему дедлайну
+  urgentTasks.sort((a, b) => {
+    if (a.diffDays < 0 && b.diffDays >= 0) return -1;
+    if (a.diffDays >= 0 && b.diffDays < 0) return 1;
+    return a.deadlineDate - b.deadlineDate;
+  });
+
+  urgentTasks.forEach(({ file, rowData, diffMs, diffDays }) => {
+    const row = document.createElement("tr");
+
+    const fileCell = document.createElement("td");
+    const fileTxt = file.replace(".json", "");
+    fileLink = document.createElement("a");
+
+    fileLink.href = `#${fileTxt}`;
+    fileLink.textContent = fileTxt;
+    fileCell.appendChild(fileLink);
+    row.appendChild(fileCell);
+
+    const topicCell = document.createElement("td");
+    topicCell.textContent = rowData.topic;
+    row.appendChild(topicCell);
+
+    const deadlineCell = document.createElement("td");
+    deadlineCell.className = "deadline";
+    deadlineCell.textContent = rowData.deadline;
+    row.appendChild(deadlineCell);
+
+    const leftCell = document.createElement("td");
+    leftCell.className = "deadline";
+    if (diffMs <= 0) {
+      leftCell.textContent = "Deadline is missed";
+      leftCell.style.color = "red";
+    } else {
+      leftCell.textContent = diffDays + " days.";
+      if (diffDays <= 3) leftCell.style.color = "orange";
+    }
+    row.appendChild(leftCell);
+
+    tbody.appendChild(row);
+  });
+
+  table.appendChild(tbody);
+  summaryBlock.appendChild(table);
+  container.prepend(summaryBlock);
+}
+
+// Модификация кода загрузки
 document.addEventListener("DOMContentLoaded", function () {
   fetch("./data/file-list.json")
     .then((response) => {
@@ -408,13 +517,11 @@ document.addEventListener("DOMContentLoaded", function () {
       return response.json();
     })
     .then((fileList) => {
-      // Проверяем, что fileList является массивом
       if (!Array.isArray(fileList)) {
         throw new Error("File list is not an array");
       }
       let num = fileList.length;
 
-      // Для каждого файла в списке выполняем запрос
       const fetchPromises = fileList.map((file) => {
         return fetch(`./data/${file}`)
           .then((response) => {
@@ -424,21 +531,20 @@ document.addEventListener("DOMContentLoaded", function () {
             return response.json();
           })
           .then((data) => {
-            console.log(
-              `Loaded data from file: ${file}`,
-              data.title,
-              data.rows.length
-            );
             generateTableFromJSON(data, file, num--);
+            return { file, data };
           })
           .catch((error) => {
             console.error(`Error loading JSON data from file ${file}:`, error);
-            // Можно добавить обработку ошибок для каждого файла
-            // return Promise.resolve(); // Продолжаем выполнение для других файлов
+            return null;
           });
       });
 
       return Promise.all(fetchPromises);
+    })
+    .then((results) => {
+      const allData = results.filter(Boolean);
+      generateDeadlineSummary(allData);
     })
     .catch((error) => {
       console.error("Error loading file list:", error);
