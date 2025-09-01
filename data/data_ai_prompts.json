@@ -12,32 +12,32 @@
     ],
     "rows": [
         {
-            "topic": "1. Основи ШІ та промпт-інжинірінгу",
+            "topic": "1. Основи промпт-інжинірингу",
             "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/43612297/43815238/43815240/homework",
+            "lms_link": "https://www.edu.goit.global/uk/learn/43612297/43601846/44468268/homework",
             "done": true,
             "score": false,
-            "deadline": "17.08.2025",
+            "deadline": "7.09.2025",
             "verified": true,
             "comment": ""
         },
         {
-            "topic": "2. ШІ для контенту та візуалізації",
+            "topic": "2. Створення власного GPT-асистента",
             "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/43612297/43815238/43815245/homework",
+            "lms_link": "",
             "done": true,
             "score": false,
-            "deadline": "24.08.2025",
+            "deadline": "01.01.1900",
             "verified": true,
             "comment": ""
         },
         {
-            "topic": "3. Створення першого проєкту за допомогою ШІ",
+            "topic": "3. Інтеграція GPT у бізнес-процеси (No‑Code)",
             "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/43612297/43815238/43815255/homework",
+            "lms_link": "",
             "done": false,
             "score": false,
-            "deadline": "31.08.2025",
+            "deadline": "01.01.1900",
             "verified": false,
             "comment": ""
         }
