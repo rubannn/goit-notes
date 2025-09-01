@@ -467,6 +467,10 @@ function generateDeadlineSummary(allData) {
     return a.deadlineDate - b.deadlineDate;
   });
 
+  if (urgentTasks.length === 0) {
+    return;
+  }
+  
   urgentTasks.forEach(({ file, rowData, diffMs, diffDays }) => {
     const row = document.createElement("tr");
 
