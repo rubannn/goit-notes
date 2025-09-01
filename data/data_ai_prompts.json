@@ -15,20 +15,20 @@
             "topic": "1. Основи промпт-інжинірингу",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/43612297/43601846/44468268/homework",
-            "done": true,
+            "done": false,
             "score": false,
             "deadline": "7.09.2025",
-            "verified": true,
+            "verified": false,
             "comment": ""
         },
         {
             "topic": "2. Створення власного GPT-асистента",
             "link": "",
             "lms_link": "",
-            "done": true,
+            "done": false,
             "score": false,
             "deadline": "01.01.1900",
-            "verified": true,
+            "verified": false,
             "comment": ""
         },
         {
