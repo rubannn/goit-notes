@@ -34,9 +34,9 @@
         {
             "topic": "Тема 6. HTTP-запити і взаємодія з бекендом.",
             "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243872/homework",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27927184/27927192/homework",
             "done": false,
-            "score": false,
+            "score": true,
             "deadline": "26.10.2025",
             "verified": false,
             "comment": ""
@@ -46,7 +46,7 @@
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27927184/27927194/homework",
             "done": false,
-            "score": false,
+            "score": true,
             "deadline": "02.11.2025",
             "verified": false,
             "comment": ""
@@ -56,7 +56,7 @@
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27927184/27927195/homework",
             "done": false,
-            "score": false,
+            "score": true,
             "deadline": "09.11.2025",
             "verified": false,
             "comment": ""
@@ -76,7 +76,7 @@
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27927184/27927197/homework",
             "done": false,
-            "score": false,
+            "score": true,
             "deadline": "16.11.2025",
             "verified": false,
             "comment": ""
