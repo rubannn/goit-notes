@@ -1,5 +1,5 @@
 {
-    "title": "Advanced JavaScript and TypeScript: Tools and Best Practices",
+    "title": "Advanced JavaScript and TypeScript: Tools and Best Practices 2.0",
     "collapse": true,
     "headers": [
         "Git Repository",
@@ -12,104 +12,94 @@
     ],
     "rows": [
         {
-            "topic": "Тема 1. Змінні та типи. Основи функцій",
+            "topic": "Тема 2. Модульність коду",
             "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243867/homework",
-            "done": false,
-            "score": false,
-            "deadline": "24.08.2025",
-            "verified": false,
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27927184/27927187/homework",
+            "done": true,
+            "score": true,
+            "deadline": "12.10.2025",
+            "verified": true,
             "comment": ""
         },
         {
-            "topic": "Тема 2. Розгалуження та цикли",
+            "topic": "Тема 4. Асинхронний JavaScript і проміси.",
             "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243868/homework",
-            "done": false,
-            "score": false,
-            "deadline": "24.08.2025",
-            "verified": false,
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27927184/27927190/homework",
+            "done": true,
+            "score": true,
+            "deadline": "19.10.2025",
+            "verified": true,
             "comment": ""
         },
         {
-            "topic": "Тема 4. Функції",
+            "topic": "Тема 6. HTTP-запити і взаємодія з бекендом.",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243872/homework",
             "done": false,
             "score": false,
-            "deadline": "31.08.2025",
+            "deadline": "26.10.2025",
             "verified": false,
             "comment": ""
         },
         {
-            "topic": "Тема 6. Масиви та методи об'єкта",
+            "topic": "Тема 8. Синтаксис async/await і пагінація.",
             "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243876/homework",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27927184/27927194/homework",
             "done": false,
             "score": false,
-            "deadline": "07.09.2025",
+            "deadline": "02.11.2025",
             "verified": false,
             "comment": ""
         },
         {
-            "topic": "Тема 8. Перебираючі методи масивів. Частина 2",
+            "topic": "Тема 9. Вступ до TypeScript.",
             "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243882/homework",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27927184/27927195/homework",
             "done": false,
             "score": false,
-            "deadline": "14.09.2025",
-            "verified": false,
-            "comment": ""
-        },                
-        {
-            "topic": "Тема 10. ООП. Класи",
-            "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243888/homework",
-            "done": false,
-            "score": false,
-            "deadline": "21.09.2025",
+            "deadline": "09.11.2025",
             "verified": false,
             "comment": ""
         },
         {
-            "topic": "Тема 12. Події",
+            "topic": "Тема 10. Типізація.",
             "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243891/homework",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27927184/27927196/homework",
             "done": false,
             "score": false,
-            "deadline": "28.09.2025",
+            "deadline": "09.11.2025",
             "verified": false,
             "comment": ""
         },
         {
-            "topic": "Тема 14. Деструктуризація",
+            "topic": "Тема 11. ООП і TypeScript.",
             "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243894/homework",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27927184/27927197/homework",
             "done": false,
             "score": false,
-            "deadline": "26.05.2025",
+            "deadline": "16.11.2025",
             "verified": false,
             "comment": ""
         },
         {
             "topic": "Наукова публiкацiя 1",
             "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243889/homework",
-            "done": false,
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27927184/27927188/homework",
+            "done": true,
             "score": false,
-            "deadline": "21.09.2025",
-            "verified": false,
+            "deadline": "12.10.2025",
+            "verified": true,
             "comment": ""
         },
         {
             "topic": "Наукова публiкацiя 2",
             "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243895/homework",
-            "done": false,
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27927184/27927198/homework",
+            "done": true,
             "score": false,
-            "deadline": "05.10.2025",
-            "verified": false,
+            "deadline": "16.11.2025",
+            "verified": true,
             "comment": ""
-        }  
+        }
     ]
 }
