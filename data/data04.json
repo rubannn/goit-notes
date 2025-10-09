@@ -105,20 +105,20 @@
             "topic": "Фінальне тестування",
             "link": "",
             "lms_link": "",
-            "done": true,
+            "done": false,
             "score": true,
             "deadline": "14.11.2025",
-            "verified": true,
+            "verified": false,
             "comment": ""
         },
         {
             "topic": "Фінальний проєкт",
             "link": "",
             "lms_link": "",
-            "done": true,
+            "done": false,
             "score": false,
             "deadline": "23.11.2025",
-            "verified": true,
+            "verified": false,
             "comment": ""
         }
     ]
