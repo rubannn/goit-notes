@@ -122,20 +122,20 @@
             "topic": "Наукова публiкацiя 2",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243895/homework",
-            "done": false,
+            "done": true,
             "score": false,
             "deadline": "05.10.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
             "topic": "Фінальне тестування",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/24536045/25243896/fallback",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "03.10.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         }
     ]
