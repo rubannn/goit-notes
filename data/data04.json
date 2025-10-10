@@ -113,8 +113,8 @@
         },
         {
             "topic": "Фінальний проєкт",
-            "link": "",
-            "lms_link": "",
+            "link": "https://github.com/rubannn/",
+            "lms_link": "https://github.com/rubannn/",
             "done": false,
             "score": false,
             "deadline": "23.11.2025",
