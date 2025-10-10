@@ -119,7 +119,34 @@
             "score": false,
             "deadline": "23.11.2025",
             "verified": false,
-            "comment": ""
+            "comment": {
+                "instructions_text": "Інструкції",
+                "instructions": [
+                    {
+                        "text": "Опис проекту та критерiїв в LMS",
+                        "url": ""
+                    },
+                    {
+                        "text": "ТЗ",
+                        "url": ""
+                    },
+                    {
+                        "text": "Макет",
+                        "url": ""
+                    },
+                    {
+                        "text": "Пiдготовка до командного проєкту",
+                        "url": ""
+                    }
+                ],
+                "text": "переглянути",
+                "urls": [
+                    "https://github.com/yangicher/goit-advancedjs-final-project",
+                    "https://github.com/EuJinnLucaShow/cats-api",
+                    "https://github.com/virysik/goit-js-final-team-project-filmoteka"
+                ],
+                "tasks": ""
+            }
         }
     ]
 }
