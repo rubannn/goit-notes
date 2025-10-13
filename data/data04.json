@@ -75,10 +75,10 @@
             "topic": "Тема 11. ООП і TypeScript.",
             "link": "https://github.com/rubannn/goit-advancedjs-hw-07",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27927184/27927197/homework",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "16.11.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
