@@ -34,10 +34,10 @@
         {
             "topic": "Воркшоп. Дослідження ринку праці. Підбір каналів для пошуку роботи",
             "link": "",
-            "lms_link": "",
-            "done": false,
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/17003531/29738420/homework",
+            "done": true,
             "score": false,
-            "deadline": "10.10.2025",
+            "deadline": "22.10.2025",
             "verified": false,
             "comment": ""
         },
