@@ -105,20 +105,20 @@
             "topic": "Фінальне тестування",
             "link": "",
             "lms_link": "",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "14.11.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
             "topic": "Фінальний проєкт",
             "link": "https://github.com/rubannn/",
             "lms_link": "https://github.com/rubannn/",
-            "done": false,
-            "score": false,
+            "done": true,
+            "score": true,
             "deadline": "23.11.2025",
-            "verified": false,
+            "verified": true,
             "comment": {
                 "instructions_text": "Інструкції",
                 "instructions": [
