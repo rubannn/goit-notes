@@ -341,6 +341,13 @@ function initializeTimeLeft() {
     const now = new Date();
 
     deadlineCells.forEach((cell, index) => {
+      const text = cell.textContent.trim();
+      if (!text) {
+        timeLeftCells[index].textContent = "Deadline not set...";
+        cell.classList.remove("deadline-close");
+        return;
+      }
+
       const dateParts = cell.textContent.split(".");
       const deadlineDate = new Date(
         dateParts[2],
@@ -470,7 +477,7 @@ function generateDeadlineSummary(allData) {
   if (urgentTasks.length === 0) {
     return;
   }
-  
+
   urgentTasks.forEach(({ file, rowData, diffMs, diffDays }) => {
     const row = document.createElement("tr");
 
