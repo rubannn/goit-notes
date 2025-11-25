@@ -1,6 +1,6 @@
 {
-    "title": "Mastering Front-End Development with React",
-    "collapse": true,
+    "title": "Mastering Front-End Development with React 2.0",
+    "collapse": false,
     "headers": [
         "Git Repository",
         "LMS",
@@ -12,13 +12,121 @@
     ],
     "rows": [
         {
-            "topic": "Тема 23. Основні структури даних",
-            "link": "https://github.com/rubannn/goit-algo-hw-02",
-            "lms_link": "",
+            "topic": "Тема 2. Компоненти та стилізація.",
+            "link": "https://github.com/rubannn/goit-neo-react-hw-module1",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/28075243/28075267/homework",
             "done": true,
+            "score": true,
+            "deadline": "30.11.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 4. Стан і форми.",
+            "link": "https://github.com/rubannn/goit-neo-react-hw-module2",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/28075243/28075269/homework",
+            "done": false,
+            "score": true,
+            "deadline": "07.12.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 6. Форми.",
+            "link": "https://github.com/rubannn/goit-neo-react-hw-module3",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/28075243/28075271/homework",
+            "done": false,
+            "score": true,
+            "deadline": "14.12.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 8. Хуки.",
+            "link": "https://github.com/rubannn/goit-neo-react-hw-module4",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/28075243/28075273/homework",
+            "done": false,
+            "score": true,
+            "deadline": "21.12.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 10. Маршрутизація.",
+            "link": "https://github.com/rubannn/goit-neo-react-hw-module5",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/28075243/28075280/homework",
+            "done": false,
+            "score": true,
+            "deadline": "28.12.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 10. Маршрутизація.",
+            "link": "https://github.com/rubannn/goit-neo-react-hw-module5",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/28075243/28075280/homework",
+            "done": false,
+            "score": true,
+            "deadline": "28.12.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 12. Основи Redux.",
+            "link": "https://github.com/rubannn/goit-neo-react-hw-module6",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/28075243/28075292/homework",
+            "done": false,
+            "score": true,
+            "deadline": "18.01.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 14. Асинхронний Redux і мемоїзація.",
+            "link": "https://github.com/rubannn/goit-neo-react-hw-module7",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/28075243/28075294/homework",
+            "done": false,
+            "score": true,
+            "deadline": "25.01.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Додаткова практика. Робота з користувачами.",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/28075243/28075297/homework",
+            "done": false,
+            "score": true,
+            "deadline": "",
+            "verified": false,
+            "comment": {
+                "text": "переглянути",
+                "urls": [
+                    "https://github.com/Malicious1986?tab=repositories&q=react-hw&type=&language=&sort=",
+                    "https://github.com/TosyaReva?tab=repositories&q=react-hw&type=&language=&sort=",
+                    "https://github.com/NotJod563?tab=repositories&q=react-hw&type=&language=&sort="
+                ],
+                "tasks": ""
+            }
+        },
+        {
+            "topic": "Наукова публiкацiя 1",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/28075243/28075274/homework",
+            "done": false,
             "score": false,
-            "deadline": "26.05.2025",
-            "verified": true,
+            "deadline": "28.12.2025",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Наукова публiкацiя 2",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/28075243/28075295/homework",
+            "done": false,
+            "score": false,
+            "deadline": "18.01.2026",
+            "verified": false,
             "comment": ""
         }
     ]
