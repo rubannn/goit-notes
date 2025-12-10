@@ -35,10 +35,10 @@
             "topic": "Тема 6. Форми.",
             "link": "https://github.com/rubannn/goit-neo-react-hw-module3",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/28075243/28075271/homework",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "14.12.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
