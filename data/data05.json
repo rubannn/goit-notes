@@ -45,10 +45,10 @@
             "topic": "Тема 8. Хуки.",
             "link": "https://github.com/rubannn/goit-neo-react-hw-module4",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/28075243/28075273/homework",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "21.12.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
