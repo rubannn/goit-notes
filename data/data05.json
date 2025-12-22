@@ -55,10 +55,10 @@
             "topic": "Тема 10. Маршрутизація.",
             "link": "https://github.com/rubannn/goit-neo-react-hw-module5",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/28075243/28075280/homework",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "28.12.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
