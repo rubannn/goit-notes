@@ -68,14 +68,14 @@
             "done": true,
             "score": true,
             "deadline": "18.01.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
             "topic": "Тема 14. Асинхронний Redux і мемоїзація.",
             "link": "https://github.com/rubannn/goit-neo-react-hw-module7",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/28075243/28075294/homework",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "25.01.2026",
             "verified": false,
