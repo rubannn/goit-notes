@@ -92,6 +92,7 @@ function generateTableFromJSON(data, file, num) {
 
       row.appendChild(topicCell);
     } else {
+      let topic = null;
       // Add link
       if (rowData.link) {
         const link = document.createElement("a");
@@ -101,10 +102,24 @@ function generateTableFromJSON(data, file, num) {
         link.rel = "noopener noreferrer"; // Security best practice
         topicContainer.appendChild(link);
       } else {
-        const topic = document.createElement("p");
+        topic = document.createElement("p");
         topic.className = "topic-text";
         topic.textContent = rowData.topic;
         topicContainer.appendChild(topic);
+      }
+
+      if (rowData.optional) {
+        const optionalSpan = document.createElement("span");
+        optionalSpan.className = "tooltip";
+        optionalSpan.dataset.tip = "не обов'язкове завдання";
+        optionalSpan.textContent = " (не є обов'язковим)";
+        if (topic) {
+          topic.appendChild(optionalSpan);
+          console.log(1111);
+        } else {
+          topicContainer.appendChild(optionalSpan);
+          console.log(2222);
+        }
       }
 
       // Add comment icon if there are comments
@@ -352,7 +367,7 @@ function initializeTimeLeft() {
       const deadlineDate = new Date(
         dateParts[2],
         dateParts[1] - 1,
-        dateParts[0]
+        dateParts[0],
       );
       deadlineDate.setHours(23, 59, 59, 999);
 
@@ -377,7 +392,7 @@ function initializeTimeLeft() {
       const totalDays = Math.floor(timeDiff / (1000 * 3600 * 24));
       const daysDiff = totalDays % 7;
       const hoursDiff = Math.floor(
-        (timeDiff % (1000 * 3600 * 24)) / (1000 * 3600)
+        (timeDiff % (1000 * 3600 * 24)) / (1000 * 3600),
       );
       const minutesDiff = Math.floor((timeDiff % (1000 * 3600)) / (1000 * 60));
 
@@ -454,7 +469,7 @@ function generateDeadlineSummary(allData) {
       const deadlineDate = new Date(
         dateParts[2],
         dateParts[1] - 1,
-        dateParts[0]
+        dateParts[0],
       );
       deadlineDate.setHours(23, 59, 59, 999);
 

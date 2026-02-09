@@ -52,14 +52,15 @@
             "comment": ""
         },
         {
-            "topic": "Воркшоп. Етапи відбору в компанію. HR-співбесіда (не є обов'язковим)",
+            "topic": "Воркшоп. Етапи відбору в компанію. HR-співбесіда",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/17003531/22862132/homework",
             "done": true,
             "score": false,
             "deadline": "13.12.2025",
             "verified": true,
-            "comment": ""
+            "comment": "",
+            "optional": true
         },
         {
             "topic": "Воркшоп. SE Підготовка до Test task: Ключ до успіху в ІТ",
