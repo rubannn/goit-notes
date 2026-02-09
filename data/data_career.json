@@ -44,31 +44,31 @@
         {
             "topic": "Воркшоп. Стратегії побудови професійного резюме для IT-спеціалістів",
             "link": "",
-            "lms_link": "",
-            "done": false,
-            "score": false,
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/17003531/22862132/homework",
+            "done": true,
+            "score": true,
             "deadline": "22.11.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
-            "topic": "Воркшоп. Етапи відбору в компанію. HR-співбесіда",
+            "topic": "Воркшоп. Етапи відбору в компанію. HR-співбесіда (не є обов'язковим)",
             "link": "",
-            "lms_link": "",
-            "done": false,
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/17003531/22862132/homework",
+            "done": true,
             "score": false,
             "deadline": "13.12.2025",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
             "topic": "Воркшоп. SE Підготовка до Test task: Ключ до успіху в ІТ",
             "link": "",
-            "lms_link": "",
-            "done": false,
-            "score": false,
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/17003531/25291540/homework",
+            "done": true,
+            "score": true,
             "deadline": "02.02.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {

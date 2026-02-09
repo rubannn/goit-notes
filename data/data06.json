@@ -1,0 +1,130 @@
+{
+    "title": "Relational Databases: Concepts and Techniques",
+    "collapse": false,
+    "headers": [
+        "Git Repository",
+        "LMS",
+        "Finished",
+        "Scores",
+        "Deadline",
+        "Countdown",
+        "Inspected"
+    ],
+    "rows": [
+        {
+            "topic": "Тема 2. Проектування баз даних з використанням семантичних моделей.",
+            "link": "https://github.com/rubannn/goit-rdb-hw-02",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/21808779/22222320/homework",
+            "done": false,
+            "score": true,
+            "deadline": "15.02.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 3. Завантаження даних та основи SQL. DQL команди.",
+            "link": "https://github.com/rubannn/goit-rdb-hw-03",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/21808779/22222321/homework",
+            "done": false,
+            "score": true,
+            "deadline": "22.02.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 4. DML та DDL команди. Складні SQL вирази.",
+            "link": "https://github.com/rubannn/goit-rdb-hw-04",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/21808779/22222322/homework",
+            "done": false,
+            "score": true,
+            "deadline": "22.02.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 5. Вкладені запити. Повторне використання коду.",
+            "link": "https://github.com/rubannn/goit-rdb-hw-05",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/21808779/22222325/homework",
+            "done": false,
+            "score": true,
+            "deadline": "01.03.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 7. Додаткові вбудовані SQL функції. Робота з часом.",
+            "link": "https://github.com/rubannn/goit-rdb-hw-07",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/21808779/22222335/homework",
+            "done": false,
+            "score": true,
+            "deadline": "08.03.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Фінальне тестування",
+            "link": "",
+            "lms_link": "",
+            "done": false,
+            "score": true,
+            "deadline": "",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Фінальний проєкт",
+            "link": "https://github.com/rubannn/goit-rdb-fp",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/21808779/22354713/homework",
+            "done": false,
+            "score": true,
+            "deadline": "29.03.2026",
+            "verified": false,
+            "comment": {
+                "instructions_text": "Інструкції",
+                "instructions": [
+                    {
+                        "text": "Створіть публічний репозиторій goit-rdb-fp",
+                        "url": ""
+                    },
+                    {
+                        "text": "Виконайте завдання та відправте у свій репозиторій скриншоти створених таблиць, запитів і результатів, а також текст SQL-коду в текстовому файлі.",
+                        "url": ""
+                    },
+                    {
+                        "text": "Завантажте скриншоти і текстовий файл на свій комп’ютер та прикріпіть їх в LMS архівом. Назва архіву повинна бути у форматі ФП_ПІБ.",
+                        "url": ""
+                    },
+                    {
+                        "text": "Прикріпіть посилання на репозиторій goit-rdb-fp та відправте на перевірку.",
+                        "url": ""
+                    }
+                ],
+                "text": "переглянути",
+                "urls": [
+                    ""
+                ],
+                "tasks": ""
+            }
+        },
+        {
+            "topic": "Наукова публiкацiя 1",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/21808779/22354787/homework",
+            "done": false,
+            "score": false,
+            "deadline": "15.02.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Наукова публiкацiя 2",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/21808779/22354703/homework",
+            "done": false,
+            "score": false,
+            "deadline": "15.03.2026",
+            "verified": false,
+            "comment": ""
+        }
+    ]
+}
