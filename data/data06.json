@@ -110,20 +110,20 @@
             "topic": "Наукова публiкацiя 1",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/21808779/22354787/homework",
-            "done": false,
+            "done": true,
             "score": false,
             "deadline": "15.02.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
             "topic": "Наукова публiкацiя 2",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/21808779/22354703/homework",
-            "done": false,
+            "done": true,
             "score": false,
             "deadline": "15.03.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         }
     ]
