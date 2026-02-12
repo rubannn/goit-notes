@@ -28,7 +28,7 @@
             "done": true,
             "score": true,
             "deadline": "22.02.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
@@ -38,14 +38,14 @@
             "done": true,
             "score": true,
             "deadline": "22.02.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
             "topic": "Тема 5. Вкладені запити. Повторне використання коду.",
             "link": "https://github.com/rubannn/goit-rdb-hw-05",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/21808779/22222325/homework",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "01.03.2026",
             "verified": false,
