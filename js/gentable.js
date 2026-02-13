@@ -22,19 +22,19 @@ function generateTableFromJSON(data, file, num) {
 
   // Create table element
   const table = document.createElement("table");
-  table.style.display = data.collapse ? "none" : "table";
 
-  // add event listener to toggle table visibility
+  // управление состоянием через is-open
+  const isOpen = !data.collapse;
+  newblock.setAttribute("is-open", isOpen);
+
+  title.classList.add(isOpen ? "expanded" : "collapsed");
   title.addEventListener("click", function () {
-    if (table.style.display === "none") {
-      table.style.display = "table";
-      this.classList.remove("collapsed");
-      this.classList.add("expanded");
-    } else {
-      table.style.display = "none";
-      this.classList.remove("expanded");
-      this.classList.add("collapsed");
-    }
+    const currentState = newblock.getAttribute("is-open") === "true";
+    const newState = !currentState;
+
+    newblock.setAttribute("is-open", newState);
+    title.classList.toggle("expanded", newState);
+    title.classList.toggle("collapsed", !newState);
   });
 
   // Create table header
@@ -53,6 +53,7 @@ function generateTableFromJSON(data, file, num) {
     th.textContent = headerText;
     headerRow.appendChild(th);
   });
+
 
   thead.appendChild(headerRow);
   table.appendChild(thead);
@@ -334,12 +335,15 @@ function generateTableFromJSON(data, file, num) {
   table.appendChild(tbody);
 
   newblock.appendChild(btn);
-  newblock.appendChild(title);
-  newblock.appendChild(table);
-  container.appendChild(newblock);
 
-  // container.appendChild(title);
-  // container.appendChild(table);
+  // обёртка для анимации
+  const tableWrapper = document.createElement("div");
+  tableWrapper.className = "table-wrapper";
+  tableWrapper.appendChild(table);
+  newblock.appendChild(title);
+  newblock.appendChild(tableWrapper);
+
+  container.appendChild(newblock);
 
   // Initialize the time left functionality
   initializeTimeLeft();

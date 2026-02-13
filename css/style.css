@@ -95,6 +95,32 @@ h2:hover::before {
 }
 
 
+/* Контейнер для анимации */
+.table-wrapper {
+  overflow: hidden;
+  transition:
+    max-height 0.45s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.3s ease,
+    transform 0.3s ease;
+  transform-origin: top;
+}
+
+
+/* Закрыто */
+#table-container > div[is-open="false"] .table-wrapper {
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-6px);
+}
+
+/* Открыто */
+#table-container > div[is-open="true"] .table-wrapper {
+  max-height: 5000px; /* больше самой высокой таблицы */
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
 .comment {
     background-color: #C0EAFF;
     padding: 10px;
