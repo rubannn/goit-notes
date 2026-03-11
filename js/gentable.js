@@ -98,14 +98,14 @@ function generateTableFromJSON(data, file, num) {
       if (rowData.link) {
         const link = document.createElement("a");
         link.href = rowData.link;
-        link.textContent = rowData.topic;
+        link.innerHTML = rowData.topic;
         link.target = "_blank"; // Open in new tab
         link.rel = "noopener noreferrer"; // Security best practice
         topicContainer.appendChild(link);
       } else {
         topic = document.createElement("p");
         topic.className = "topic-text";
-        topic.textContent = rowData.topic;
+        topic.innerHTML = rowData.topic;
         topicContainer.appendChild(topic);
       }
 
@@ -116,10 +116,8 @@ function generateTableFromJSON(data, file, num) {
         optionalSpan.textContent = " (не є обов'язковим)";
         if (topic) {
           topic.appendChild(optionalSpan);
-          console.log(1111);
         } else {
           topicContainer.appendChild(optionalSpan);
-          console.log(2222);
         }
       }
 

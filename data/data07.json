@@ -1,0 +1,115 @@
+{
+    "title": "Fullstack Web Development with Python",
+    "collapse": true,
+    "headers": [
+        "Git Repository",
+        "LMS",
+        "Finished",
+        "Scores",
+        "Deadline",
+        "Countdown",
+        "Inspected"
+    ],
+    "rows": [
+        {
+            "topic": "Тема 1. Python Development",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331154/homework",
+            "done": false,
+            "score": false,
+            "deadline": "",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 2. Основи технології  Docker",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331155/homework",
+            "done": false,
+            "score": false,
+            "deadline": "",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 3. Основи Web. Побудова простого HTTP сервера",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331156/homework",
+            "done": false,
+            "score": false,
+            "deadline": "",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 4. Асинхронне програмування в Python",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331161/homework",
+            "done": false,
+            "score": false,
+            "deadline": "",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 5. Основи роботи з ORM SQLAlchemy<br>Тема 6. Розширені можливості SQLAlchemy та міграції схеми бази даних",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331163/homework",
+            "done": false,
+            "score": false,
+            "deadline": "",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 7. Основи FastAPI<br>Тема 8. Побудова REST API. Архітектура застосунка",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331167/homework",
+            "done": false,
+            "score": false,
+            "deadline": "",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 9. Авторизація та Автентифікація<br>Тема 10. Додаткові теми Backend-розробки",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331171/homework",
+            "done": false,
+            "score": false,
+            "deadline": "",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 11. Основи тестування веб-застосунків<br>Тема 12. Інтеграційне тестування та документування коду",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331174/homework",
+            "done": false,
+            "score": false,
+            "deadline": "",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Наукова публiкацiя 1",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331175/homework",
+            "done": false,
+            "score": false,
+            "deadline": "",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Наукова публiкацiя 2",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331176/homework",
+            "done": false,
+            "score": false,
+            "deadline": "",
+            "verified": false,
+            "comment": ""
+        }
+    ]
+}
