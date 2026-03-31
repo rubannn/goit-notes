@@ -460,7 +460,9 @@ function generateDeadlineSummary(allData) {
   const now = new Date();
   let urgentTasks = [];
 
+  console.log(allData);
   allData.forEach(({ file, data }) => {
+    const title = data.title || "";
     data.rows.forEach((rowData) => {
       if (!rowData.deadline) return;
       if (rowData.verified) return; // пропускаем проверенные задачи
@@ -479,7 +481,7 @@ function generateDeadlineSummary(allData) {
       const diffDays = Math.floor(diffMs / (1000 * 3600 * 24));
 
       if (diffDays < 0 || diffDays <= 7) {
-        urgentTasks.push({ file, rowData, deadlineDate, diffMs, diffDays });
+        urgentTasks.push({ file, title, rowData, deadlineDate, diffMs, diffDays });
       }
     });
   });
@@ -495,7 +497,7 @@ function generateDeadlineSummary(allData) {
     return;
   }
 
-  urgentTasks.forEach(({ file, rowData, diffMs, diffDays }) => {
+  urgentTasks.forEach(({ file, title,rowData, diffMs, diffDays }) => {
     const row = document.createElement("tr");
 
     const fileCell = document.createElement("td");
@@ -503,7 +505,7 @@ function generateDeadlineSummary(allData) {
     fileLink = document.createElement("a");
 
     fileLink.href = `#${fileTxt}`;
-    fileLink.textContent = fileTxt;
+    fileLink.textContent = `${title} (${fileTxt})`;
     fileCell.appendChild(fileLink);
     row.appendChild(fileCell);
 
