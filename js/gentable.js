@@ -447,7 +447,7 @@ function generateDeadlineSummary(allData) {
   const table = document.createElement("table");
   const thead = document.createElement("thead");
   const headerRow = document.createElement("tr");
-  ["File", "Topic", "Deadline", "	Countdown"].forEach((h) => {
+  ["File", "Topic", "Deadline", "Countdown"].forEach((h) => {
     const th = document.createElement("th");
     th.textContent = h;
     headerRow.appendChild(th);
