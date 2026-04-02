@@ -1,6 +1,6 @@
 {
     "title": "Fullstack Web Development with Python",
-    "collapse": true,
+    "collapse": false,
     "headers": [
         "Git Repository",
         "LMS",
