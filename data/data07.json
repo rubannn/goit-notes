@@ -13,12 +13,12 @@
     "rows": [
         {
             "topic": "Тема 1. Python Development",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-pythonweb-hw-01",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331154/homework",
             "done": true,
             "score": false,
             "deadline": "05.04.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
@@ -98,7 +98,7 @@
             "done": true,
             "score": false,
             "deadline": "03.04.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
@@ -108,7 +108,7 @@
             "done": true,
             "score": false,
             "deadline": "01.05.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         }
     ]
