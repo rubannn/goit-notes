@@ -510,7 +510,7 @@ function generateDeadlineSummary(allData) {
     row.appendChild(fileCell);
 
     const topicCell = document.createElement("td");
-    topicCell.textContent = rowData.topic;
+    topicCell.innerHTML = rowData.topic;
     row.appendChild(topicCell);
 
     const deadlineCell = document.createElement("td");
