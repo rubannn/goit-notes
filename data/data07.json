@@ -89,7 +89,12 @@
             "score": false,
             "deadline": "10.05.2026",
             "verified": false,
-            "comment": ""
+            "comment": {
+                "text": "переглянути",
+                "urls": [
+                    "https://github.com/AndyGrigs?tab=repositories&q=pythonweb&type=&language=&sort="
+                ]
+            }
         },
         {
             "topic": "Наукова публiкацiя 1",
