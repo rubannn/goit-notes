@@ -23,7 +23,7 @@
         },
         {
             "topic": "Тема 2. Основи технології  Docker",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-pythonweb-hw-02",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331155/homework",
             "done": false,
             "score": false,
@@ -33,7 +33,7 @@
         },
         {
             "topic": "Тема 3. Основи Web. Побудова простого HTTP сервера",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-pythonweb-hw-03",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331156/homework",
             "done": false,
             "score": false,
@@ -43,7 +43,7 @@
         },
         {
             "topic": "Тема 4. Асинхронне програмування в Python",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-pythonweb-hw-04",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331161/homework",
             "done": false,
             "score": false,
@@ -53,7 +53,7 @@
         },
         {
             "topic": "Тема 5. Основи роботи з ORM SQLAlchemy<br>Тема 6. Розширені можливості SQLAlchemy та міграції схеми бази даних",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-pythonweb-hw-06",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331163/homework",
             "done": false,
             "score": false,
