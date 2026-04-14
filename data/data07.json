@@ -28,7 +28,7 @@
             "done": true,
             "score": false,
             "deadline": "05.04.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
@@ -38,7 +38,7 @@
             "done": true,
             "score": false,
             "deadline": "12.04.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
@@ -48,7 +48,7 @@
             "done": true,
             "score": false,
             "deadline": "12.04.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
