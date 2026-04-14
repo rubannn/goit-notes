@@ -76,7 +76,7 @@
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331171/homework",
             "done": false,
-            "score": false,
+            "score": true,
             "deadline": "03.05.2026",
             "verified": false,
             "comment": ""
@@ -86,7 +86,7 @@
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331174/homework",
             "done": false,
-            "score": false,
+            "score": true,
             "deadline": "10.05.2026",
             "verified": false,
             "comment": {
