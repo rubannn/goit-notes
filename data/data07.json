@@ -92,7 +92,8 @@
             "comment": {
                 "text": "переглянути",
                 "urls": [
-                    "https://github.com/AndyGrigs?tab=repositories&q=pythonweb&type=&language=&sort="
+                    "https://github.com/AndyGrigs?tab=repositories&q=pythonweb&type=&language=&sort=",
+                    "https://github.com/bilcha?tab=repositories&q=pyth&type=&language=&sort="
                 ]
             }
         },
