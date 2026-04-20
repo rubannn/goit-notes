@@ -55,10 +55,10 @@
             "topic": "Тема 5. Основи роботи з ORM SQLAlchemy<br>Тема 6. Розширені можливості SQLAlchemy та міграції схеми бази даних",
             "link": "https://github.com/rubannn/goit-pythonweb-hw-06",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331163/homework",
-            "done": false,
+            "done": true,
             "score": false,
             "deadline": "19.04.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
