@@ -65,10 +65,10 @@
             "topic": "Тема 7. Основи FastAPI<br>Тема 8. Побудова REST API. Архітектура застосунка",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331167/homework",
-            "done": false,
+            "done": true,
             "score": false,
             "deadline": "26.04.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
