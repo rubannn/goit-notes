@@ -63,7 +63,7 @@
         },
         {
             "topic": "Тема 7. Основи FastAPI<br>Тема 8. Побудова REST API. Архітектура застосунка",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-pythonweb-hw-08",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331167/homework",
             "done": true,
             "score": false,
@@ -73,7 +73,7 @@
         },
         {
             "topic": "Тема 9. Авторизація та Автентифікація<br>Тема 10. Додаткові теми Backend-розробки",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-pythonweb-hw-10",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331171/homework",
             "done": true,
             "score": true,
@@ -83,7 +83,7 @@
         },
         {
             "topic": "Тема 11. Основи тестування веб-застосунків<br>Тема 12. Інтеграційне тестування та документування коду",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-pythonweb-hw-12",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331174/homework",
             "done": false,
             "score": true,
