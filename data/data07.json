@@ -85,10 +85,10 @@
             "topic": "Тема 11. Основи тестування веб-застосунків<br>Тема 12. Інтеграційне тестування та документування коду",
             "link": "https://github.com/rubannn/goit-pythonweb-hw-12",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/27330977/27331174/homework",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "10.05.2026",
-            "verified": false,
+            "verified": true,
             "comment": {
                 "text": "переглянути",
                 "urls": [
