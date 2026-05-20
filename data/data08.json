@@ -1,0 +1,95 @@
+{
+    "title": "Design and Analysis of Algorithms 2.0",
+    "collapse": false,
+    "headers": [
+        "Git Repository",
+        "LMS",
+        "Finished",
+        "Scores",
+        "Deadline",
+        "Countdown",
+        "Inspected"
+    ],
+    "rows": [
+        {
+            "topic": "Тема 1. Аналіз алгоритмів. Стратегія «розділяй і володарюй»<br>Тема 2. Жадібні алгоритми та динамічне програмування",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/42734900/42735064/homework",
+            "done": false,
+            "score": false,
+            "deadline": "24.05.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 3. Графи та дерева<br>Тема 4. Префіксні дерева",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/42734900/42735075/homework",
+            "done": false,
+            "score": false,
+            "deadline": "31.05.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 5. Алгоритми роботи з великими даними",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/42734900/43322143/homework",
+            "done": false,
+            "score": false,
+            "deadline": "07.06.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 6. Основи паралельних обчислень і модель MapReduce<br>Тема 7. Алгоритми керування кешем<br>Тема 8. Алгоритми контролю потоку та обмеження швидкості",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/42734900/43322159/homework",
+            "done": false,
+            "score": false,
+            "deadline": "14.06.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 9. Локальний пошук, евристики та імітація відпалу<br>Тема 10. Алгоритмічна складність, наближені та рандомізовані алгоритми",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/42734900/43322190/homework",
+            "done": false,
+            "score": false,
+            "deadline": "",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Фінальне тестування",
+            "link": "",
+            "lms_link": "",
+            "done": false,
+            "score": false,
+            "deadline": "19.06.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Наукова публiкацiя 1",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/42734900/42735078/homework",
+            "done": false,
+            "score": false,
+            "deadline": "31.05.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Наукова публiкацiя 2",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/42734900/43322161/homework",
+            "done": false,
+            "score": false,
+            "deadline": "14.06.2026",
+            "verified": false,
+            "comment": ""
+        }
+    ]
+}

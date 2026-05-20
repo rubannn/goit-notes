@@ -1,6 +1,6 @@
 {
     "title": "Fullstack Web Development with Python",
-    "collapse": false,
+    "collapse": true,
     "headers": [
         "Git Repository",
         "LMS",
@@ -101,10 +101,10 @@
             "topic": "Фінальне тестування",
             "link": "",
             "lms_link": "",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "15.05.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
