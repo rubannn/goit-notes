@@ -32,8 +32,8 @@
             "comment": ""
         },
         {
-            "topic": "Тема 5. Алгоритми роботи з великими даними",
-            "link": "",
+            "topic": "Тема 5. Алгоритми роботи з великими даними<br>Тема 6. Основи паралельних обчислень і модель MapReduce",
+            "link": "https://github.com/rubannn/goit-algo2-hw-06",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/42734900/43322143/homework",
             "done": false,
             "score": false,
@@ -42,8 +42,8 @@
             "comment": ""
         },
         {
-            "topic": "Тема 6. Основи паралельних обчислень і модель MapReduce<br>Тема 7. Алгоритми керування кешем<br>Тема 8. Алгоритми контролю потоку та обмеження швидкості",
-            "link": "",
+            "topic": "Тема 7. Алгоритми керування кешем<br>Тема 8. Алгоритми контролю потоку та обмеження швидкості",
+            "link": "https://github.com/rubannn/goit-algo2-hw-08",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/42734900/43322159/homework",
             "done": false,
             "score": false,
@@ -53,7 +53,7 @@
         },
         {
             "topic": "Тема 9. Локальний пошук, евристики та імітація відпалу<br>Тема 10. Алгоритмічна складність, наближені та рандомізовані алгоритми",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-algo2-hw-10",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/42734900/43322190/homework",
             "done": false,
             "score": false,
