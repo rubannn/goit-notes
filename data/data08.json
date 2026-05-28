@@ -25,10 +25,10 @@
             "topic": "Тема 3. Графи та дерева<br>Тема 4. Префіксні дерева",
             "link": "https://github.com/rubannn/goit-algo2-hw-04",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/42734900/42735075/homework",
-            "done": false,
-            "score": false,
+            "done": true,
+            "score": true,
             "deadline": "31.05.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
@@ -36,7 +36,7 @@
             "link": "https://github.com/rubannn/goit-algo2-hw-06",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/42734900/43322143/homework",
             "done": false,
-            "score": false,
+            "score": true,
             "deadline": "07.06.2026",
             "verified": false,
             "comment": ""
