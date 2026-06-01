@@ -35,10 +35,10 @@
             "topic": "Тема 5. Алгоритми роботи з великими даними<br>Тема 6. Основи паралельних обчислень і модель MapReduce",
             "link": "https://github.com/rubannn/goit-algo2-hw-06",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/42734900/43322143/homework",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "07.06.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
