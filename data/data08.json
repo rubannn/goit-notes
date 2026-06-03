@@ -45,10 +45,10 @@
             "topic": "Тема 7. Алгоритми керування кешем<br>Тема 8. Алгоритми контролю потоку та обмеження швидкості",
             "link": "https://github.com/rubannn/goit-algo2-hw-08",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/42734900/43322159/homework",
-            "done": false,
+            "done": true,
             "score": false,
             "deadline": "14.06.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
