@@ -55,10 +55,10 @@
             "topic": "Тема 9. Локальний пошук, евристики та імітація відпалу<br>Тема 10. Алгоритмічна складність, наближені та рандомізовані алгоритми",
             "link": "https://github.com/rubannn/goit-algo2-hw-10",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/42734900/43322190/homework",
-            "done": false,
-            "score": false,
+            "done": true,
+            "score": true,
             "deadline": "",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
