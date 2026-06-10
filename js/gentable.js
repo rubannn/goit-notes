@@ -358,6 +358,16 @@ function initializeTimeLeft() {
     const now = new Date();
 
     deadlineCells.forEach((cell, index) => {
+      const verifiedCheckbox = cell
+        .closest("tr")
+        .querySelector('.verified-cell input[type="checkbox"]');
+
+      if (verifiedCheckbox.checked) {
+        timeLeftCells[index].innerHTML =
+          '<span style="color: green; font-weight: bold; font-size: 16px;">✓</span>';
+        return;
+      }
+
       const text = cell.textContent.trim();
       if (!text) {
         timeLeftCells[index].textContent = "Deadline not set...";
@@ -374,16 +384,6 @@ function initializeTimeLeft() {
       deadlineDate.setHours(23, 59, 59, 999);
 
       const timeDiff = deadlineDate.getTime() - now.getTime();
-      const verifiedCheckbox = cell
-        .closest("tr")
-        .querySelector('.verified-cell input[type="checkbox"]');
-
-      if (verifiedCheckbox.checked) {
-        timeLeftCells[index].innerHTML =
-          '<span style="color: green; font-weight: bold; font-size: 16px;">✓</span>';
-        return;
-      }
-
       if (timeDiff <= 0) {
         timeLeftCells[index].textContent = "Deadline passed";
         cell.classList.add("deadline-close");
