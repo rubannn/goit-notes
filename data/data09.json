@@ -1,0 +1,91 @@
+{
+    "title": "Fullstack. Back End Development: Node.js",
+    "collapse": false,
+    "headers": [
+        "Git Repository",
+        "LMS",
+        "Finished",
+        "Scores",
+        "Deadline",
+        "Countdown",
+        "Inspected"
+    ],
+    "rows": [
+        {
+            "topic": "Домашнє завдання №1. File Organizer CLI",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/51212585/51966859/homework",
+            "done": false,
+            "score": false,
+            "deadline": "12.07.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Домашнє завдання №2. REST API Дошки оголошень",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/51212585/52063890/homework",
+            "done": false,
+            "score": false,
+            "deadline": "02.08.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Домашнє завдання №3. Розширення функціоналу REST API Дошки оголошень",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/51212585/52064077/homework",
+            "done": false,
+            "score": false,
+            "deadline": "09.08.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Фінальний проєкт",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/51212585/52549871/homework",
+            "done": false,
+            "score": true,
+            "deadline": "",
+            "verified": false,
+            "comment": {
+                "text": "переглянути",
+                "urls": [
+                    ""
+                ],
+                "tasks": ""
+            }
+        },
+        {
+            "topic": "Фінальне тестування",
+            "link": "",
+            "lms_link": "",
+            "done": false,
+            "score": false,
+            "deadline": "21.08.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Наукова публiкацiя 1",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/51212585/52063865/homework",
+            "done": false,
+            "score": false,
+            "deadline": "19.07.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Наукова публiкацiя 2",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/51212585/52063873/homework",
+            "done": false,
+            "score": false,
+            "deadline": "26.07.2026",
+            "verified": false,
+            "comment": ""
+        }
+    ]
+}
