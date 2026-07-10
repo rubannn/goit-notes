@@ -13,7 +13,7 @@
     "rows": [
         {
             "topic": "Домашнє завдання №1. File Organizer CLI",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-nodejs-hw-01",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/51212585/51966859/homework",
             "done": false,
             "score": false,
@@ -23,7 +23,7 @@
         },
         {
             "topic": "Домашнє завдання №2. REST API Дошки оголошень",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-nodejs-hw-02",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/51212585/52063890/homework",
             "done": false,
             "score": false,
