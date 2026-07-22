@@ -1,0 +1,111 @@
+{
+    "title": "MLOps CI/CD",
+    "collapse": false,
+    "headers": [
+        "Git Repository",
+        "LMS",
+        "Finished",
+        "Scores",
+        "Deadline",
+        "Countdown",
+        "Inspected"
+    ],
+    "rows": [
+        {
+            "topic": "Тема 1. Вступ до MLOps<br>Тема 2. Основи Linux і Bash-скриптування<br>Тема 3. Контейнеризація ML-моделей",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/38664777/38699480/homework",
+            "done": false,
+            "score": false,
+            "deadline": "02.08.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 4. Вступ до ІаС в контексті MLOps та Kubernetes<br>Тема 5. Kubernetes для MLOps",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/38664777/38699489/homework",
+            "done": false,
+            "score": false,
+            "deadline": "09.08.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 6. Деплой ML-сервісів у Kubernetes (EKS)<br>Тема 7. ArgoCD для Helm-деплою",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/38664777/38699501/homework",
+            "done": false,
+            "score": false,
+            "deadline": "16.08.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 8. Моніторинг та логування моделей<br>Тема 9. Моніторинг якості моделей та відстеження експериментів",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/38664777/38699504/homework",
+            "done": false,
+            "score": false,
+            "deadline": "23.08.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 10. Автоматизоване тренування моделей",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/38664777/38699515/homework",
+            "done": false,
+            "score": false,
+            "deadline": "23.08.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Фінальний проєкт",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/38664777/43002770/homework",
+            "done": false,
+            "score": true,
+            "deadline": "06.09.2026",
+            "verified": false,
+            "comment": {
+                "text": "переглянути",
+                "urls": [
+                    ""
+                ],
+                "tasks": ""
+            }
+        },
+        {
+            "topic": "Фінальне тестування",
+            "link": "",
+            "lms_link": "",
+            "done": false,
+            "score": false,
+            "deadline": "02.09.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Наукова публiкацiя 1",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/38664777/40966122/homework",
+            "done": false,
+            "score": false,
+            "deadline": "26.07.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Наукова публiкацiя 2",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/38664777/42931336/homework",
+            "done": false,
+            "score": false,
+            "deadline": "30.08.2026",
+            "verified": false,
+            "comment": ""
+        }
+    ]
+}
