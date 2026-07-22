@@ -14,7 +14,7 @@
         {
             "topic": "Тема 1. Вступ до MLOps<br>Тема 2. Основи Linux і Bash-скриптування<br>Тема 3. Контейнеризація ML-моделей",
             "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/38664777/38699480/homework",
+            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/52561116/52899064/homework",
             "done": false,
             "score": false,
             "deadline": "02.08.2026",
@@ -22,9 +22,9 @@
             "comment": ""
         },
         {
-            "topic": "Тема 4. Вступ до ІаС в контексті MLOps та Kubernetes<br>Тема 5. Kubernetes для MLOps",
+            "topic": "Тема 4. IaC для MLOps<br>Тема 5. Kubernetes",
             "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/38664777/38699489/homework",
+            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/52561116/52902181/homework",
             "done": false,
             "score": false,
             "deadline": "09.08.2026",
@@ -34,7 +34,7 @@
         {
             "topic": "Тема 6. Деплой ML-сервісів у Kubernetes (EKS)<br>Тема 7. ArgoCD для Helm-деплою",
             "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/38664777/38699501/homework",
+            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/52561116/53046910/homework",
             "done": false,
             "score": false,
             "deadline": "16.08.2026",
@@ -42,9 +42,9 @@
             "comment": ""
         },
         {
-            "topic": "Тема 8. Моніторинг та логування моделей<br>Тема 9. Моніторинг якості моделей та відстеження експериментів",
+            "topic": "Тема 8. Моніторинг та логування ML-моделей<br>Тема 9. Моніторинг якості моделей та відстеження експериментів",
             "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/38664777/38699504/homework",
+            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/52561116/53083572/homework",
             "done": false,
             "score": false,
             "deadline": "23.08.2026",
@@ -52,9 +52,9 @@
             "comment": ""
         },
         {
-            "topic": "Тема 10. Автоматизоване тренування моделей",
+            "topic": "Тема 10. Автоматизоване тренування моделей. GitLab CI та AWS Step",
             "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/38664777/38699515/homework",
+            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/52561116/53221776/homework",
             "done": false,
             "score": false,
             "deadline": "23.08.2026",
@@ -64,7 +64,7 @@
         {
             "topic": "Фінальний проєкт",
             "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/38664777/43002770/homework",
+            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/52561116/53744549/homework",
             "done": false,
             "score": true,
             "deadline": "06.09.2026",
@@ -93,14 +93,14 @@
             "lms_link": "https://www.edu.goit.global/uk/learn/21252761/38664777/40966122/homework",
             "done": false,
             "score": false,
-            "deadline": "26.07.2026",
+            "deadline": "09.08.2026",
             "verified": false,
             "comment": ""
         },
         {
             "topic": "Наукова публiкацiя 2",
             "link": "",
-            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/38664777/42931336/homework",
+            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/52561116/53361006/homework",
             "done": false,
             "score": false,
             "deadline": "30.08.2026",
