@@ -25,10 +25,10 @@
             "topic": "Домашнє завдання №2. REST API Дошки оголошень",
             "link": "https://github.com/rubannn/goit-nodejs-hw-02",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/51212585/52063890/homework",
-            "done": false,
-            "score": false,
+            "done": true,
+            "score": true,
             "deadline": "02.08.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
