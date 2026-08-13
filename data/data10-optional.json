@@ -15,10 +15,10 @@
             "topic": "Тема 1. Вступ до MLOps<br>Тема 2. Основи Linux і Bash-скриптування<br>Тема 3. Контейнеризація ML-моделей",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/21252761/52561116/52899064/homework",
-            "done": false,
-            "score": false,
+            "done": true,
+            "score": true,
             "deadline": "02.08.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
