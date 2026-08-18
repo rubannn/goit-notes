@@ -50,6 +50,17 @@
             "deadline": "",
             "verified": false,
             "comment": {
+                "instructions_text": "Інструкції",
+                "instructions": [
+                    {
+                        "text": "ТЗ",
+                        "url": "https://docs.google.com/spreadsheets/d/1RQo9l60o5jiArDLVl9Gl7Gjq2kNolByJQ6-ERVR0Q8w/edit?gid=1850255900#gid=1850255900"
+                    },
+                    {
+                        "text": "Макет",
+                        "url": "https://www.figma.com/design/TKl7kDNvwtz62RsuWNnQ5E/Foodies?node-id=127-2517"
+                    }
+                ],
                 "text": "переглянути",
                 "urls": [
                     ""
