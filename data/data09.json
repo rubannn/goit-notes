@@ -33,7 +33,7 @@
         },
         {
             "topic": "Домашнє завдання №3. Розширення функціоналу REST API Дошки оголошень",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-nodejs-hw-03",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/51212585/52064077/homework",
             "done": true,
             "score": true,
@@ -43,7 +43,7 @@
         },
         {
             "topic": "Фінальний проєкт",
-            "link": "",
+            "link": "https://github.com/sidor91/foodies_monorepo",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/51212585/52549871/homework",
             "done": false,
             "score": true,
