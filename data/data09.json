@@ -72,10 +72,10 @@
             "topic": "Фінальне тестування",
             "link": "",
             "lms_link": "",
-            "done": false,
-            "score": false,
+            "done": true,
+            "score": true,
             "deadline": "21.08.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
