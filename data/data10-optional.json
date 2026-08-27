@@ -25,10 +25,10 @@
             "topic": "Тема 4. IaC для MLOps<br>Тема 5. Kubernetes",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/21252761/52561116/52902181/homework",
-            "done": false,
-            "score": false,
+            "done": true,
+            "score": true,
             "deadline": "09.08.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
