@@ -35,10 +35,10 @@
             "topic": "Тема 6. Деплой ML-сервісів у Kubernetes (EKS)<br>Тема 7. ArgoCD для Helm-деплою",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/21252761/52561116/53046910/homework",
-            "done": false,
-            "score": false,
+            "done": true,
+            "score": true,
             "deadline": "16.08.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
