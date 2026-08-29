@@ -55,10 +55,10 @@
             "topic": "Тема 10. Автоматизоване тренування моделей. GitLab CI та AWS Step",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/21252761/52561116/53221776/homework",
-            "done": false,
-            "score": false,
+            "done": true,
+            "score": true,
             "deadline": "23.08.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
