@@ -45,10 +45,10 @@
             "topic": "Фінальний проєкт",
             "link": "https://github.com/sidor91/foodies_monorepo",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/51212585/52549871/homework",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "30.08.2026",
-            "verified": false,
+            "verified": true,
             "comment": {
                 "instructions_text": "Інструкції",
                 "instructions": [
