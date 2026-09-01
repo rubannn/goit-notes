@@ -93,12 +93,32 @@
             "comment": ""
         },
         {
-            "topic": "-",
+            "topic": "Воркшоп. Особистий бренд",
             "link": "",
-            "lms_link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/17003531/31983047/homework",
             "done": false,
             "score": false,
-            "deadline": "01.01.1900",
+            "deadline": "14.09.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Воркшоп. Ефективна комунікація",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/17003531/35826048/homework",
+            "done": false,
+            "score": false,
+            "deadline": "14.09.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Воркшоп. Крос-культурна комунікація в ІТ",
+            "link": "",
+            "lms_link": "---",
+            "done": false,
+            "score": false,
+            "deadline": "12.09.2026",
             "verified": false,
             "comment": ""
         },
@@ -106,6 +126,26 @@
             "topic": "Ресерч інформації про компанію",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/17003531/38556663/homework",
+            "done": false,
+            "score": false,
+            "deadline": "18.09.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Воркшоп. Підготовка до HR-інтерв'ю для IT-спеціалістів",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/17003531/30250579/homework",
+            "done": false,
+            "score": false,
+            "deadline": "25.09.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "-",
+            "link": "",
+            "lms_link": "",
             "done": false,
             "score": false,
             "deadline": "01.01.1900",
