@@ -99,7 +99,7 @@
             "done": true,
             "score": false,
             "deadline": "14.09.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
@@ -109,7 +109,7 @@
             "done": true,
             "score": false,
             "deadline": "14.09.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
