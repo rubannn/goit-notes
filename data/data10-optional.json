@@ -13,7 +13,7 @@
     "rows": [
         {
             "topic": "Тема 1. Вступ до MLOps<br>Тема 2. Основи Linux і Bash-скриптування<br>Тема 3. Контейнеризація ML-моделей",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-MLOps/tree/lesson-3",
             "lms_link": "https://www.edu.goit.global/uk/learn/21252761/52561116/52899064/homework",
             "done": true,
             "score": true,
@@ -23,7 +23,7 @@
         },
         {
             "topic": "Тема 4. IaC для MLOps<br>Тема 5. Kubernetes",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-MLOps/tree/lesson-5",
             "lms_link": "https://www.edu.goit.global/uk/learn/21252761/52561116/52902181/homework",
             "done": true,
             "score": true,
@@ -33,7 +33,7 @@
         },
         {
             "topic": "Тема 6. Деплой ML-сервісів у Kubernetes (EKS)<br>Тема 7. ArgoCD для Helm-деплою",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-MLOps/tree/lesson-7",
             "lms_link": "https://www.edu.goit.global/uk/learn/21252761/52561116/53046910/homework",
             "done": true,
             "score": true,
@@ -43,7 +43,7 @@
         },
         {
             "topic": "Тема 8. Моніторинг та логування ML-моделей<br>Тема 9. Моніторинг якості моделей та відстеження експериментів",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-MLOps/tree/lesson-9",
             "lms_link": "https://www.edu.goit.global/uk/learn/21252761/52561116/53083572/homework",
             "done": true,
             "score": true,
@@ -53,7 +53,7 @@
         },
         {
             "topic": "Тема 10. Автоматизоване тренування моделей. GitLab CI та AWS Step",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-MLOps/tree/lesson-10",
             "lms_link": "https://www.edu.goit.global/uk/learn/21252761/52561116/53221776/homework",
             "done": true,
             "score": true,
@@ -63,7 +63,7 @@
         },
         {
             "topic": "Фінальний проєкт",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-MLOps-fp",
             "lms_link": "https://www.edu.goit.global/uk/learn/21252761/52561116/53744549/homework",
             "done": true,
             "score": true,
