@@ -35,20 +35,20 @@
             "topic": "Домашнє завдання 3. Формування та скоринг беклогу. Воронки та метрики. North Star Framework",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/44019503/44019527/homework",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "20.09.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
             "topic": "Домашнє завдання 4. Business Model Canvas. Unit Economics",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/44019503/44019540/homework",
-            "done": false,
+            "done": true,
             "score": true,
             "deadline": "20.09.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
