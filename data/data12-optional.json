@@ -62,6 +62,16 @@
             "comment": ""
         },
         {
+            "topic": "Фінальне тестування",
+            "link": "",
+            "lms_link": "",
+            "done": false,
+            "score": true,
+            "deadline": "06.11.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
             "topic": "Фінальний проєкт",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/27132483/26851475/29841301/homework",

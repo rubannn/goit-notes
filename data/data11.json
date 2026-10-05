@@ -1,6 +1,6 @@
 {
     "title": "Agile Product Management for Software Development Teams 2.0",
-    "collapse": false,
+    "collapse": true,
     "headers": [
         "Git Repository",
         "LMS",
@@ -58,7 +58,7 @@
             "done": false,
             "score": true,
             "deadline": "27.09.2026",
-            "verified": false,
+            "verified": true,
             "comment": {
                 "instructions_text": "Інструкції",
                 "instructions": [],
