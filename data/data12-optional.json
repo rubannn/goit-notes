@@ -1,0 +1,101 @@
+{
+    "title": "Data Engineering",
+    "collapse": false,
+    "headers": [
+        "Git Repository",
+        "LMS",
+        "Finished",
+        "Scores",
+        "Deadline",
+        "Countdown",
+        "Inspected"
+    ],
+    "rows": [
+        {
+            "topic": "Тема 1. Вступ до Data Engineering<br>Тема 2. Екосистема Hadoop. Apache Spark<br>Тема 3. Apache Spark. Основи і синтаксис",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/27132483/26851475/26851533/homework",
+            "done": false,
+            "score": true,
+            "deadline": "11.10.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 4. Apache Spark. Оптимізація та SparkUІ",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/27132483/26851475/26851542/homework",
+            "done": false,
+            "score": false,
+            "deadline": "11.10.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 5. Apache Kafka",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/27132483/26851475/28349319/homework",
+            "done": false,
+            "score": true,
+            "deadline": "18.10.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 6. Spark streaming",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/27132483/26851475/28494004/homework",
+            "done": false,
+            "score": false,
+            "deadline": "18.10.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 7. Apache Airflow",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/27132483/26851475/28852155/homework",
+            "done": false,
+            "score": true,
+            "deadline": "25.10.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Фінальний проєкт",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/27132483/26851475/29841301/homework",
+            "done": false,
+            "score": true,
+            "deadline": "08.11.2026",
+            "verified": false,
+            "comment": {
+                "text": "переглянути",
+                "urls": [
+                    ""
+                ],
+                "tasks": ""
+            }
+        },
+        {
+            "topic": "Наукова публiкацiя 1",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/27132483/26851475/27794846/homework",
+            "done": false,
+            "score": false,
+            "deadline": "18.10.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Наукова публiкацiя 2",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/27132483/26851475/27901271/homework",
+            "done": false,
+            "score": false,
+            "deadline": "25.10.2026",
+            "verified": false,
+            "comment": ""
+        }
+    ]
+}
