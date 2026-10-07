@@ -13,9 +13,9 @@
     "rows": [
         {
             "topic": "Домашнє завдання 1. Обчислювальні сервіси AWS",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-cloud-computing-hw",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/32217237/36208926/homework",
-            "done": false,
+            "done": true,
             "score": false,
             "deadline": "11.10.2026",
             "verified": false,
