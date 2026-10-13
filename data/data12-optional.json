@@ -45,10 +45,10 @@
             "topic": "Тема 6. Spark streaming",
             "link": "https://github.com/rubannn/goit-de-hw-06",
             "lms_link": "https://www.edu.goit.global/uk/learn/27132483/26851475/28494004/homework",
-            "done": false,
+            "done": true,
             "score": false,
             "deadline": "18.10.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
