@@ -126,10 +126,10 @@
             "topic": "Ресерч інформації про компанію",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/17003531/38556663/homework",
-            "done": false,
+            "done": true,
             "score": false,
             "deadline": "18.09.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
