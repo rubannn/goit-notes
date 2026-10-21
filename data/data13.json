@@ -23,7 +23,7 @@
         },
         {
             "topic": "Домашнє завдання 2. Контейнеризація в AWS",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-cloud-computing-hw",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/32217237/37173920/homework",
             "done": true,
             "score": false,
@@ -33,7 +33,7 @@
         },
         {
             "topic": "Домашнє завдання 3. Сховища даних в AWS",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-cloud-computing-hw",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/32217237/37173992/homework",
             "done": false,
             "score": false,
