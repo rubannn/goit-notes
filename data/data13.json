@@ -45,10 +45,10 @@
             "topic": "Домашнє завдання 4. Amazon S3 та Amazon CloudFront",
             "link": "",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/32217237/37174006/homework",
-            "done": false,
+            "done": true,
             "score": false,
             "deadline": "25.10.2026",
-            "verified": false,
+            "verified": true,
             "comment": ""
         },
         {
