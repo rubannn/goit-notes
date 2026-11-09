@@ -1,0 +1,111 @@
+{
+    "title": "DevOps CI/CD",
+    "collapse": false,
+    "headers": [
+        "Git Repository",
+        "LMS",
+        "Finished",
+        "Scores",
+        "Deadline",
+        "Countdown",
+        "Inspected"
+    ],
+    "rows": [
+        {
+            "topic": "Тема 1. DevOps. Планування інфраструктури: початкові кроки<br>Тема 2. Основи Linux<br>Тема 3. Linux адміністрування",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/32217374/32217381/homework",
+            "done": false,
+            "score": false,
+            "deadline": "22.11.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 4. Docker",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/32217374/35554195/homework",
+            "done": false,
+            "score": false,
+            "deadline": "22.11.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 5. IaC. Terraform",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/32217374/35554222/homework",
+            "done": false,
+            "score": true,
+            "deadline": "29.11.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 6. Оркестрація із Kubernetes<br>Тема 7. Вивчення Helm",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/32217374/38911114/homework",
+            "done": false,
+            "score": true,
+            "deadline": "06.12.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 8: Вивчення Jenkins CI<br>Тема 9. Вивчення ArgoCD + CD",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/32217374/39470477/homework",
+            "done": false,
+            "score": true,
+            "deadline": "13.12.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тема 10. Адміністрування баз даних",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/32217374/40149103/homework",
+            "done": false,
+            "score": true,
+            "deadline": "20.12.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Фінальний проєкт",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/52561116/53744549/homework",
+            "done": false,
+            "score": true,
+            "deadline": "25.12.2026",
+            "verified": false,
+            "comment": {
+                "text": "переглянути",
+                "urls": [
+                    ""
+                ],
+                "tasks": ""
+            }
+        },
+        {
+            "topic": "Наукова публiкацiя 1",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/32217374/39774459/homework",
+            "done": false,
+            "score": false,
+            "deadline": "29.11.2026",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Наукова публiкацiя 2",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/32217374/40763968/homework",
+            "done": false,
+            "score": false,
+            "deadline": "20.12.2026",
+            "verified": false,
+            "comment": ""
+        }
+    ]
+}

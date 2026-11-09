@@ -1,6 +1,6 @@
 {
     "title": "Data Engineering",
-    "collapse": false,
+    "collapse": true,
     "headers": [
         "Git Repository",
         "LMS",
