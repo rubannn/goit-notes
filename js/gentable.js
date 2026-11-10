@@ -550,8 +550,6 @@ document.addEventListener("DOMContentLoaded", function () {
       if (!Array.isArray(fileList)) {
         throw new Error("File list is not an array");
       }
-      let num = fileList.length;
-
       const fetchPromises = fileList.map((file) => {
         return fetch(`./data/${file}`)
           .then((response) => {
@@ -560,10 +558,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
             return response.json();
           })
-          .then((data) => {
-            generateTableFromJSON(data, file, num--);
-            return { file, data };
-          })
+          .then((data) => ({ file, data }))
           .catch((error) => {
             console.error(`Error loading JSON data from file ${file}:`, error);
             return null;
@@ -574,6 +569,9 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .then((results) => {
       const allData = results.filter(Boolean);
+      allData.forEach(({ file, data }, index) => {
+        generateTableFromJSON(data, file, allData.length - index);
+      });
       generateDeadlineSummary(allData);
     })
     .catch((error) => {
