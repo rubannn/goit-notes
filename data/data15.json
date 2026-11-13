@@ -1,0 +1,111 @@
+{
+    "title": "Applied Computer Science: Capstone project",
+    "collapse": false,
+    "headers": [
+        "Git Repository",
+        "LMS",
+        "Finished",
+        "Scores",
+        "Deadline",
+        "Countdown",
+        "Inspected"
+    ],
+    "rows": [
+        {
+            "topic": "Тиждень 1. Початок активного етапу роботи над дипломною роботою",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/38041238/39278941/homework",
+            "done": false,
+            "score": false,
+            "deadline": "01.03.2027",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тиждень 2. Розширення функціоналу та перше демо",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/38041238/39280550/homework",
+            "done": false,
+            "score": false,
+            "deadline": "01.03.2027",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тиждень 3. Поглиблена розробка й тестування",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/38041238/39280563/homework",
+            "done": false,
+            "score": false,
+            "deadline": "01.03.2027",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тиждень 4. Розширена інтеграція, друге демо та початок роботи над пояснювальною запискою",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/38041238/39280567/homework",
+            "done": false,
+            "score": false,
+            "deadline": "01.03.2027",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тиждень 5. Фіналізація основної частини проєкту та підготовка до фінального демо",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/38041238/39280578/homework",
+            "done": false,
+            "score": false,
+            "deadline": "01.03.2027",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тиждень 6. Фінальне демо та завершення пояснювальної записки",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/38041238/39280584/homework",
+            "done": false,
+            "score": false,
+            "deadline": "01.03.2027",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тиждень 7. Доопрацювання пояснювальної записки та підготовка презентації",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/38041238/39280586/homework",
+            "done": false,
+            "score": false,
+            "deadline": "01.03.2027",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Тиждень 8. Передзахист. Захист роботи",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/28179789/38041238/39280589/homework",
+            "done": false,
+            "score": false,
+            "deadline": "01.03.2027",
+            "verified": false,
+            "comment": ""
+        },
+        {
+            "topic": "Фінальний проєкт",
+            "link": "",
+            "lms_link": "https://www.edu.goit.global/uk/learn/21252761/52561116/53744549/homework",
+            "done": false,
+            "score": true,
+            "deadline": "01.03.2027",
+            "verified": false,
+            "comment": {
+                "text": "переглянути",
+                "urls": [
+                    ""
+                ],
+                "tasks": ""
+            }
+        }
+    ]
+}
