@@ -13,7 +13,7 @@
     "rows": [
         {
             "topic": "Тема 1. DevOps. Планування інфраструктури: початкові кроки<br>Тема 2. Основи Linux<br>Тема 3. Linux адміністрування",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-devops/tree/main",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/32217374/32217381/homework",
             "done": true,
             "score": false,
@@ -23,7 +23,7 @@
         },
         {
             "topic": "Тема 4. Docker",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-devops/tree/main",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/32217374/35554195/homework",
             "done": true,
             "score": false,
@@ -33,7 +33,7 @@
         },
         {
             "topic": "Тема 5. IaC. Terraform",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-devops/tree/main",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/32217374/35554222/homework",
             "done": false,
             "score": true,
@@ -43,7 +43,7 @@
         },
         {
             "topic": "Тема 6. Оркестрація із Kubernetes<br>Тема 7. Вивчення Helm",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-devops/tree/main",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/32217374/38911114/homework",
             "done": false,
             "score": true,
@@ -53,7 +53,7 @@
         },
         {
             "topic": "Тема 8: Вивчення Jenkins CI<br>Тема 9. Вивчення ArgoCD + CD",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-devops/tree/main",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/32217374/39470477/homework",
             "done": false,
             "score": true,
@@ -63,7 +63,7 @@
         },
         {
             "topic": "Тема 10. Адміністрування баз даних",
-            "link": "",
+            "link": "https://github.com/rubannn/goit-devops/tree/main",
             "lms_link": "https://www.edu.goit.global/uk/learn/28179789/32217374/40149103/homework",
             "done": false,
             "score": true,
